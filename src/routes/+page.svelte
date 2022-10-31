@@ -1,4 +1,22 @@
-<h1 class="text-3xl font-bold text-yellow-100 underline">
-	Hello world is my first project!
-</h1>
-<img src="/images(1).jpg" alt="Women workout">
+<script>
+	import AsSeen from "$lib/images/landing/AsSeen.svelte";
+	import Brand from "$lib/images/landing/Brand.svelte";
+	import Discover from "$lib/images/landing/Discover.svelte";
+	import FromBlog from "$lib/images/landing/FromBlog.svelte";
+	import LandingPage from "$lib/images/landing/LandingPage.svelte";
+	import OurBest from "$lib/images/landing/OurBest.svelte";
+	import ThePerfect from "$lib/images/landing/ThePerfect.svelte";
+	import ThreeImg from "$lib/images/landing/ThreeImg.svelte";
+	
+
+	
+</script>
+ 
+<LandingPage />
+<ThreeImg/>
+<Discover/>
+<AsSeen/>
+<Brand/>
+<ThePerfect/>
+<FromBlog/>
+<OurBest/>

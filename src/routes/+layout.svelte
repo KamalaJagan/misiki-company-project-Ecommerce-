@@ -1,15 +1,23 @@
 <script>
+	import { page } from "$app/stores";
+import Footer from "$lib/images/landing/Footer.svelte";
+	import Nav from "$lib/images/landing/Nav.svelte";
 	import "../app.css";
+
 </script>
 
 <div class="app">
-		<main>
+	<Nav />
+
+
+
+	<main>
 		<slot />
 	</main>
+	
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<Footer />
+	
 </div>
 
 <style>
@@ -23,9 +31,9 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
+		/* padding: rem; */
+		/* width: 100%; */
+		/* max-width: 64rem; */
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
