@@ -1,149 +1,171 @@
 <div class="font-serif">
-    <h1 class=" mt-4 text-4xl text-black my-auto text-center px-20">Necklaces</h1>
+	<h1 class=" mt-4 text-4xl text-black my-auto text-center px-20">Necklaces</h1>
 </div>
-<div class="grid grid-cols-1 lg:grid-cols-5 px-4 mt-10 gap-10">
-    <div>
-    <h2 class="uppercase mt-2">Sort by</h2>
-    <label for="selling" class="sr-only">Featured</label>
-    <select id="selling" class="border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        <option selected>Featured</option>
-        <option value="BA">Best selling</option>
-        <option value="TX">Alphabetically, A-Z</option>
-        <option value="WH">Alphabetically, Z-A</option>
-        <option value="FL">Price, low to high</option>
-        <option value="VG">Price, high to low</option>
-        <option value="GE">Date, old to new</option>
-        <option value="MI">Date, new to old</option>
-    </select>
-    <hr class="w-80 black-800 border-slate border-black mt-10"/>
-    <h2 class="uppercase mt-10">filter by</h2>
-    <label for="selling" class="sr-only">Availabitity</label>
-    <select id="selling" class="mt-4 border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        <option selected>Availability</option>
-    </select>
-    <label for="selling" class="sr-only">Price</label>
-    <select id="selling" class="mt-2 border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        <option selected>Price</option>
-    </select>
-    <label for="selling" class="sr-only">Material</label>
-    <select id="selling" class="border mt-2 w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        <option selected>Material</option>
-    </select>
-    </div>
+<div class="grid grid-cols-1 lg:grid-cols-5 px-4 mt-10 gap-5">
+	<div>
+		<h2 class="uppercase mt-2">Sort by</h2>
+		<label for="selling" class="sr-only">Featured</label>
+		<select
+			id="selling"
+			class="border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+		>
+			<option selected>Featured</option>
+			<option value="BA">Best selling</option>
+			<option value="TX">Alphabetically, A-Z</option>
+			<option value="WH">Alphabetically, Z-A</option>
+			<option value="FL">Price, low to high</option>
+			<option value="VG">Price, high to low</option>
+			<option value="GE">Date, old to new</option>
+			<option value="MI">Date, new to old</option>
+		</select>
+		<hr class="w-80 black-800 border-slate border-black mt-10" />
+		<h2 class="uppercase mt-10">filter by</h2>
+		<label for="selling" class="sr-only">Availabitity</label>
+		<select
+			id="selling"
+			class="mt-4 border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+		>
+			<option selected>Availability</option>
+		</select>
+		<label for="selling" class="sr-only">Price</label>
+		<select
+			id="selling"
+			class="mt-2 border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+		>
+			<option selected>Price</option>
+		</select>
+		<label for="selling" class="sr-only">Material</label>
+		<select
+			id="selling"
+			class="border mt-2 w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+		>
+			<option selected>Material</option>
+		</select>
+	</div>
 
-    <div class=" font-serif flex col-span-4">
-        <div class=" text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
-            <div>
-                <img src="G1.webp" alt="..." class="object-cover h-auto w-full mb-2"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Luna Blue Topaz Necklace</div>
-                    <div>$69.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G5.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Clear Quartz Shield</div>
-                    <div class="line-through">$69.95</div>
-                    <div>$62.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G6.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Pink Amethyst Satellite Chain Necklace</div>
-                    <div>$34.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G7.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Queen Prasiolite Necklace</div>
-                    <div>$52.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G8.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Triangle Smokey Quartz Necklace</div>
-                    <div>$67.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="B2.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Large Bali Harmony Ball</div>
-                    <div class="line-through">$42.95</div>
-                    <div>$35.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G9.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Angel Wing Satellite Chain Necklace</div>
-                    <div>$25.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G10.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Cog Pendant on Satellite Chain</div>
-                    <div>$24.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G11.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Clear Quartz Teardrop Pendant Necklace</div>
-                    <div>$69.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G12.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Blue Topaz Shield Satellite Chain Necklace</div>
-                    <div>$34.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G13.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Guardian Crescent Clear Quartz Drop Necklace</div>
-                    <div>$69.95</div>
-                </div>
-            </div>
-            <div>
-                <img src="G14.webp" alt="..." class="object-cover h-auto w-full mb-4"/>
-                <div class=" text-center mb-12">
-                    <div>Lotus Mandala Necklace</div>
-                    <div>$29.95</div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class=" font-serif flex col-span-4">
+		<div class=" text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+			<div>
+				<img src="G1.webp" alt="..." class="object-cover h-auto w-full mb-2" />
+				<div class=" text-center mb-12">
+					<div>Guardian Luna Blue Topaz Necklace</div>
+					<div>$69.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G5.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Clear Quartz Shield</div>
+					<div class="line-through">$69.95</div>
+					<div>$62.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G6.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Pink Amethyst Satellite Chain Necklace</div>
+					<div>$34.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G7.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Queen Prasiolite Necklace</div>
+					<div>$52.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G8.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Triangle Smokey Quartz Necklace</div>
+					<div>$67.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="B2.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Large Bali Harmony Ball</div>
+					<div class="line-through">$42.95</div>
+					<div>$35.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G9.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Angel Wing Satellite Chain Necklace</div>
+					<div>$25.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G10.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Cog Pendant on Satellite Chain</div>
+					<div>$24.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G11.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Clear Quartz Teardrop Pendant Necklace</div>
+					<div>$69.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G12.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Blue Topaz Shield Satellite Chain Necklace</div>
+					<div>$34.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G13.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Guardian Crescent Clear Quartz Drop Necklace</div>
+					<div>$69.95</div>
+				</div>
+			</div>
+			<div>
+				<img src="G14.webp" alt="..." class="object-cover h-auto w-full mb-4" />
+				<div class=" text-center mb-12">
+					<div>Lotus Mandala Necklace</div>
+					<div>$29.95</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="items-center text-center justify-center ">
-    <button class="h-12 uppercase text-white md:w-auto sm:w-32 lg:w-36 bg-[#008060] shadow-200 hover:bg-gray-700">Load more</button>
+	<button
+		class="h-12 uppercase text-white md:w-auto sm:w-32 lg:w-36 bg-[#008060] shadow-200 hover:bg-gray-700"
+		>Load more</button
+	>
 </div>
-<div class="bg-[#faf8ee] lg:max-w-6xl text-center h-auto bg:w-full p-10 flex mt-10 text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-serif">
-    <div class="w-full h-full">
-        <img src="/C4.webp" class="p-2 " alt="....."/>
-    </div>
-    <div class="flex justify-center grid grid-cols-1 grid-cols-2">
-        <div class="w-full h-full">
-            <div><img src="/C5.webp" class="p-2 " alt="....."/></div>
-            <div>Heart Harmony Ball</div>
-            <div>$42.95</div>
-        </div>
-        <div class="w-full h-full">
-            <div><img src="/C6.webp" class="p-2" alt="....."/></div>
-            <div>Double Angle Wing Necklace</div>
-            <div>$32.95</div>
-        </div>
-        <div class="col-span-3 p-4 space-y-2 ">
-            <h1 class=" mt-4 text-4xl text-black my-auto text-center px-20 ">The perfect pair</h1>
-            <p>Combine these two pieces for a neckline drop that is sure to turn heads and bag 25% off!</p>
-            <button class="h-12 uppercase text-white md:w-auto sm:w-32 lg:w-36 bg-[#008060] gap-6 shadow-200 hover:bg-gray-700">Get the set</button>
-        </div>
-    </div>
+<div
+	class="bg-[#faf8ee] lg:max-w-6xl text-center h-auto bg:w-full p-10 flex mt-10 text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-serif"
+>
+	<div class="w-full h-full">
+		<img src="/C4.webp" class="p-2 " alt="....." />
+	</div>
+	<div class="flex justify-center grid grid-cols-1 grid-cols-2">
+		<div class="w-full h-full">
+			<div><img src="/C5.webp" class="p-2 " alt="....." /></div>
+			<div>Heart Harmony Ball</div>
+			<div>$42.95</div>
+		</div>
+		<div class="w-full h-full">
+			<div><img src="/C6.webp" class="p-2" alt="....." /></div>
+			<div>Double Angle Wing Necklace</div>
+			<div>$32.95</div>
+		</div>
+		<div class="col-span-3 p-4 space-y-2 ">
+			<h1 class=" mt-4 text-4xl text-black my-auto text-center px-20 ">The perfect pair</h1>
+			<p>
+				Combine these two pieces for a neckline drop that is sure to turn heads and bag 25% off!
+			</p>
+			<button
+				class="h-12 uppercase text-white md:w-auto sm:w-32 lg:w-36 bg-[#008060] gap-6 shadow-200 hover:bg-gray-700"
+				>Get the set</button
+			>
+		</div>
+	</div>
 </div>
