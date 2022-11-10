@@ -110,7 +110,7 @@
 			<ul
 				class="hidden md:flex flex-row gap-4 uppercase items-center col-span-1 justify-start tracking-widest"
 			>
-				<li class="hover:text-gray-500"><a href="/">Home</a></li>
+				<li class="hover:text-gray-500"><a href="/home">Home</a></li>
 				<li class="hover:text-gray-500"><a href="/aboutus">About</a></li>
 				<li class="hover:text-gray-500"><a href="/blog">Blog</a></li>
 			</ul>
