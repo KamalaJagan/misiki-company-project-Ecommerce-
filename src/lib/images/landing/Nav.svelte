@@ -1,4 +1,5 @@
 <nav>
+	<!--------------------------------------------- Navbar start 1---------------------------------- -->
 	<div class="w-full fixed top-0 bg-white font-sans-serif z-40">
 		<div class="container px-6 mx-auto py-4 flex justify-between">
 			<div
@@ -21,10 +22,10 @@
 				Back
 			</div>
 
-			<div class="hidden md:flex gap-3 items-center">
+			<div class="hidden md:flex gap-6 items-center">
 				<div class="text-base">Theme styles</div>
 				<button
-					class="hidden md:flex text-center items-center justify-center gap-8 px-2 py-3.5 rounded-lg w-44 h-10 border border-gray-300 text-gray-800 text-sm dark:placeholder-gray-400 "
+					class="hidden md:flex text-center items-center justify-center gap-8 px-2 py-3.5 rounded-lg w-40 h-10 border border-gray-300 text-gray-800 text-sm dark:placeholder-gray-400 "
 				>
 					Gothenburg
 					<svg
@@ -47,7 +48,7 @@
 					<option value="2">Oslo</option>
 					<option value="3">Copenhagen</option>
 				</select> -->
-				<div class="gap-2">
+
 				<button>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +83,6 @@
 					</svg>
 				</button>
 			</div>
-			</div>
 
 			<div class="hidden md:flex items-center font-bold tracking-wider">
 				<button
@@ -93,19 +93,23 @@
 		</div>
 		<hr class="w-full black-800 dark:bg-gray-700" />
 	</div>
-
+	<!--------------------------------------------- Navbar end 1---------------------------------- -->
+<!--------------------------------------------- Navbar start 2---------------------------------- -->
 	<div>
 		<!-- <hr class=" w-full black-800 dark:bg-gray-700" /> -->
 		<div
-			class=" mt-20 bg-[#f2ebce] w-full shadow-md inline-flex justify-center gap-4 font-bold-10 p-3 font-sans-serif "
+			class="mt-20 bg-[#f2ebce] w-full shadow-md inline-flex justify-center gap-4 font-bold-10 p-3 font-sans-serif "
 		>
 			Free shipping when spend over $100!
 		</div>
 	</div>
-
-	<div class=" w-full bg-white font-sans-serif ">
+	<!--------------------------------------------- Navbar end 2---------------------------------- -->
+<!--------------------------------------------- Navbar start 3---------------------------------- -->
+	<div class="w-full bg-white font-sans-serif mt-2">
 		<div class="container px-5 md:px-10 mx-auto py-5 grid grid-cols-3">
-			<ul class="hidden md:flex flex-row gap-4 uppercase items-center col-span-1 justify-start">
+			<ul
+				class="hidden md:flex flex-row gap-4 uppercase items-center col-span-1 justify-start tracking-widest"
+			>
 				<li class="hover:text-gray-500"><a href="/">Home</a></li>
 				<li class="hover:text-gray-500"><a href="/aboutus">About</a></li>
 				<li class="hover:text-gray-500"><a href="/blog">Blog</a></li>
@@ -130,17 +134,17 @@
 				</svg>
 			</div>
 
-			<div class="items-center col-span-1 justify-self-center ">
+			<div class="items-center col-span-1 py-4 justify-self-center ">
 				<img
 					src="22A.webp"
-					class="h-10 w-auto object-contain object-center flex-shrink-0"
+					class="h-9 w-auto object-contain object-center flex-shrink-0"
 					alt="..."
 				/>
 			</div>
 
-			<div class="gap-4 items-center flex col-span-1 justify-end">
+			<div class="gap-6 items-center flex col-span-1 justify-end">
 				<button
-					class="hidden md:flex justify-center gap-2 duration-300 px-2 py-3.5 hover:rounded md:w-auto lg:w-52 lg:h-14 border border-gray-700 dark:placeholder-gray-400 "
+					class="hidden md:flex justify-center gap-2 duration-300 px-2 py-3.5 hover:text-gray-500 md:w-auto lg:w-52 lg:h-14 border border-gray-700 dark:placeholder-gray-400 "
 				>
 					United State(USD $)
 					<svg
@@ -150,7 +154,7 @@
 						stroke="currentColor"
 						stroke-linejoin="round"
 						stroke-linecap="round"
-						class="w-5 h-7 hover:text-gray-500"
+						class="w-4 h-7 hover:text-gray-500"
 					>
 						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 					</svg>
@@ -214,9 +218,10 @@
 			</div>
 		</div>
 	</div>
-
+	<!--------------------------------------------- Navbar end 3---------------------------------- -->
+<!--------------------------------------------- Navbar start 4---------------------------------- -->
 	<div class="mt-2 cursor-pointer container font-sans-serif tracking-widest">
-		<ul class="hidden md:flex flex-row gap-12 justify-center uppercase">
+		<ul class="hidden md:flex flex-row gap-8 justify-center uppercase">
 			<li class="hover:text-gray-500 flex gap-2">
 				new in
 				<button>
@@ -250,7 +255,7 @@
 				</svg>
 			</li>
 			<li class="hover:text-gray-500"><a href="/sale">Sale</a></li>
-			<li class="hover:text-gray-500">Theme features</li>
+			<li class="hover:text-gray-500"><a href="/theme">Theme features</a></li>
 			<li class="hover:text-gray-500 flex gap-2">
 				Demos<svg
 					fill="none"
@@ -268,3 +273,4 @@
 	</div>
 	<hr class="w-full black-800 mt-4" />
 </nav>
+<!--------------------------------------------- Navbar end 4---------------------------------- -->

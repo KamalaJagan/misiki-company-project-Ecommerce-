@@ -1,8 +1,8 @@
-<div class="bg-[#faf8ee] lg:h-[700px] h-auto bg:w-full font-sans-serif ">
-	<h5 class="uppercase text-center mt-10 text-sm text-gray-800 tracking-wide">discover</h5>
+<div class="mt-5 bg-[#faf8ee] lg:h-[720px] h-auto bg:w-full font-sans-serif ">
+	<h5 class="uppercase text-center mt-12 text-sm text-gray-800 tracking-wide">discover</h5>
 	<h1 class="text-center mt-4 text-4xl text-gray-800 font-serif font-light">Our bestsellers</h1>
 	<div
-		class="grid h-auto p-5 grid-flow-row grid-cols-2 md:grid-cols-4 gap-8 mx-auto p-2 max-w-md lg:max-w-6xl bg-cover">
+		class="grid h-auto p-5 grid-flow-row grid-cols-2 md:grid-cols-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover">
 		<div class="hover:text-gray-500">
 			<div class="overflow-hidden lg:h-96 h-auto w-auto">
 				<img
@@ -12,8 +12,7 @@
 				/>
 			</div>
 			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div>Guardian Luna Blue Topaz</div>
-				<div>Nacklace</div>
+				<div>Guardian Luna Blue Topaz Nacklace</div>
 				<div>$69.95</div>
 			</div>
 		</div>
@@ -27,8 +26,7 @@
 				/>
 			</div>
 			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div class="mt-2">Bejewelled Water Sapphire</div>
-				<div>Hoops-Large</div>
+				<div class="mt-2">Bejewelled Water Sapphire Hoops-Large</div>
 				<div class="line-through text-xs">$42.95</div>
 				<div class="flex text-center justify-center gap-1">
 					<div class="text-sm justify-center">from</div>
@@ -46,8 +44,7 @@
 				/>
 			</div>
 			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div class="mt-2">Guardian Chandelier Smokey</div>
-				<div>Quartz Earrings</div>
+				<div class="mt-2">Guardian Chandelier Smokey Quartz Earrings</div>
 				<div class="line-through text-xs">$88.95</div>
 				<div>$67.95</div>
 			</div>
@@ -61,8 +58,7 @@
 				/>
 			</div>
 			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div class="mt-4">Guardian Rainbow Smokey</div>
-				<div>Quartz Earrings</div>
+				<div class="mt-4">Guardian Rainbow Smokey Quartz Earrings</div>
 				<div>$64.95</div>
 			</div>
 		</div>

@@ -43,7 +43,7 @@
 		</select>
 	</div>
 
-	<div class=" font-serif flex col-span-4">
+	<div class=" font-sans-serif flex col-span-4">
 		<div class=" text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 			<div>
 				<img src="G1.webp" alt="..." class="object-cover h-auto w-full mb-2" />

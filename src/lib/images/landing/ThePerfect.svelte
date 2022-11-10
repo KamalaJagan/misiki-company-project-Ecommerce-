@@ -1,10 +1,10 @@
-<div class=" lg:max-w-6xl gap-6 text-center h-auto bg:w-full p-5 flex mt-10 text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
+<div class=" lg:max-w-6xl gap-6 text-center h-auto bg:w-full flex mt-10 text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
 	<div class="w-full h-full">
 		<img src="/C4.webp" alt="....." />
 	</div>
-	<div class="flex grid grid-cols-1 grid-cols-2 gap-8 mx-auto">
-		<div class="w-full h-full">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
+	<div class="flex grid grid-cols-1 grid-cols-2 ">
+		<div>
+			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
 					src="/C5.webp"
 					class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="w-full h-full ">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
+			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
 					src="/C6.webp"
 					class=" object-cover h-full w-full transition duration-500 hover:scale-110"

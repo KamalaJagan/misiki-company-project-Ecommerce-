@@ -1,4 +1,4 @@
-<div class="mt-4 font-serif">
+<div class="mt-4 font-sans-serif">
 	<h1 class="text-4xl text-black my-auto text-center px-20">Shipping policy</h1>
 </div>
 <div class="p-4 font-serif">

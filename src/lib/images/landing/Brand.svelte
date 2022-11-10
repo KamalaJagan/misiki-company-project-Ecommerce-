@@ -1,6 +1,6 @@
 <div class="font-sans-serif">
 	<h5 class="uppercase text-center mt-10 text-gray-800">Brand New</h5>
-	<h1 class="text-center p-4 text-4xl text-gray-800 font-serif">The wishing locket</h1>
+	<h1 class="text-center text-4xl mt-4 text-gray-800 font-serif">The wishing locket</h1>
 	<div
 		class="grid h-auto p-5 grid-flow-row md:grid-cols-4 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl">
 		<div class="hover:text-gray-500">

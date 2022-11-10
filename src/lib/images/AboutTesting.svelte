@@ -1,68 +1,129 @@
-<div class="font-serif">
-	<h1 class="text-center mb-6 p-6 text-4xl">Meet the maker</h1>
-	<div class="space-y-5 text-lg max-w-6xl">
-		<p class="px-10">
-			Gothenburg jewellery has been running for 5 years now under the brilliant instruction of the
-			fabulous Christine Farrington.
-		</p>
-		<p class="px-10">
-			After Christine graduated she went straight into bespoke jewellery creation working with the
-			biggest names in the industry for the best part of a decade.
-		</p>
-		<p class="px-10">
-			Now Christine has created Gothenburg; a jewellery brand selling handmade items that capture
-			the spirit of her home, Cornwall.
-		</p>
-		<p class="px-10">
-			Many of the pieces have natural shapes and textures to reflect the beautiful surroundings of
-			the Cornish countryside. The stones and metals are sourced locally where possible and
-			everything is made in our studio just back from the St.Ives harbour.
-		</p>
+<div class="">
+	<div class=" ">
+		<h1 class="text-center mb-6 p-6 text-4xl font-serif">Meet the maker</h1>
+		<div class="space-y-5 text-lg lg:px-52  font-sans-serif">
+			<p >
+				Gothenburg jewellery has been running for 5 years now under the brilliant instruction of the
+				fabulous Christine Farrington.
+			</p>
+			<p >
+				After Christine graduated she went straight into bespoke jewellery creation working with the
+				biggest names in the industry for the best part of a decade.
+			</p>
+			<p >
+				Now Christine has created Gothenburg; a jewellery brand selling handmade items that capture
+				the spirit of her home, Cornwall.
+			</p>
+			<p >
+				Many of the pieces have natural shapes and textures to reflect the beautiful surroundings of
+				the Cornish countryside. The stones and metals are sourced locally where possible and
+				everything is made in our studio just back from the St.Ives harbour.
+			</p>
+		</div>
 	</div>
-</div>
-<hr class="mt-6 justify-center max-w-6xl" />
+	<div class="lg:px-72">
+		<hr class="mt-6 max-w-6xl" />
+	</div>
 
-<div class=" mt-28 lg:h-[700px] h-auto w-full font-serif bg-cover">
-	<h1 class="text-center p- text-4xl text-gray-800">From the blog</h1>
-	<div class="grid grid-flow-row grid-cols-1 lg:grid-cols-3 gap-6 mx-auto p-2 max-w-6xl ">
-		<div>
-			<img src="C1.webp" class="h-64 w-full object-cover " alt="....." />
-			<div class="py-4">
-				<div class="uppercase hover:underline text-gray-500">The journey of the gemstone</div>
-				<div class="mt-2 text-gray-400">April 05, 2018</div>
-				<p class="mt-5 text-gray-700">
-					A gemstone (also called a gem, fine gem, jewel, precious stone, or semi-precious stone) is
-					a piece of mineral crystal which, in cut and polished form, is used to make jewelry or
-					other adornments. Join us on...
-				</p>
-			</div>
-			<button class="text-gray-500 hover:text-black">Read more</button>
-		</div>
-		<div>
-			<img src="C2.webp" class="h-64 w-full object-cover  " alt="....." />
-			<div class="py-4">
-				<div class="uppercase hover:underline text-gray-500">jewellery to suit your skin tone?</div>
-				<div class="mt-2 text-gray-400">April 05,2018</div>
-				<p class=" mt-5 text-gray-700">
-					Much like wearing makeup, wearing jewellery can really highlight your features and
-					accentuate your beauty. It can bring out your skin tones, the colour of your hair...
-				</p>
-			</div>
-			<button class="text-gray-500 hover:text-black">Read more</button>
-		</div>
-		<div>
-			<img src="C3.webp" class="h-64 w-full object-cover " alt="....." />
-			<div class="py-4">
-				<div class="uppercase hover:underline text-gray-500">
-					Big statements with minimal jewellery
+	<div class=" lg:h-[700px] h-auto bg:w-full font-sans-serif ">
+		<h1 class="text-center p-5 mt-10 text-4xl text-gray-800 font-serif font-light">From the blog</h1>
+		<div class="grid h-auto p-5 grid-flow-row grid-cols-1 lg:grid-cols-3 gap-4 mx-auto p-2 max-w-6xl w-full h-auto bg-cover">
+			<div>
+				<img src="C1.webp" class="lg:h-64 h-auto w-full object-cover w-auto" alt="....." />
+				<div class="py-4">
+					<div class="uppercase hover:underline text-gray-500 text-sm cursor-pointer">
+						The journey of the gemstone
+					</div>
+					<div class="mt-2 text-gray-400">April 05, 2018</div>
+					<p class="mt-5 text-gray-700">
+						A gemstone (also called a gem, fine gem, jewel, precious stone, or semi-precious stone) is
+						a piece of mineral crystal which, in cut and polished form, is used to make jewelry or
+						other adornments. Join us on...
+					</p>
 				</div>
-				<div class="mt-2 text-gray-400">October 17, 2017</div>
-				<p class="mt-5 text-gray-700">
-					This collection is a mermaids dream featuring all natural mother of pearl and abalone from
-					the depths of the sea. All of our pieces are hand...
-				</p>
+				<button class="text-gray-500 hover:text-black">Read more</button>
 			</div>
-			<button class="text-gray-500 hover:text-black ">Read more</button>
+			<div>
+				<img src="C2.webp" class="h-64 w-full object-cover" alt="....." />
+				<div class="py-4">
+					<div class="uppercase hover:underline text-gray-500 text-sm cursor-pointer">
+						jewellery to suit your skin tone?
+					</div>
+					<div class="mt-2 text-gray-400">April 05,2018</div>
+					<p class=" mt-5 text-gray-700">
+						Much like wearing makeup, wearing jewellery can really highlight your features and
+						accentuate your beauty. It can bring out your skin tones, the colour of your hair...
+					</p>
+				</div>
+				<button class="text-gray-500 hover:text-black">Read more</button>
+			</div>
+			<div>
+				<img src="C3.webp" class="h-64 w-full object-cover" alt="....." />
+				<div class="py-4">
+					<div class="uppercase hover:underline text-gray-500 text-sm cursor-pointer">
+						Big statements with minimal jewellery
+					</div>
+					<div class="mt-2 text-gray-400">October 17, 2017</div>
+					<p class="mt-5 text-gray-700">
+						This collection is a mermaids dream featuring all natural mother of pearl and abalone from
+						the depths of the sea. All of our pieces are hand...
+					</p>
+				</div>
+				<button class="text-gray-500 hover:text-black">Read more</button>
+			</div>
 		</div>
+	</div>
+</div>	
+<div class="bg-[#faf8ee] lg:h-[200px] lg:w-[210vh] w-[93vh] font-sans-serif ">
+	<p class="text-center mt-12 text-4xl">Find out more on our socials</p>
+	<div>
+		<ul class="col-span-1 p-4 flex gap-4 justify-center mt-6">
+			<li class="pb-2">
+				<svg
+					fill="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					class="w-7 h-6 bg:blue-200"
+					viewBox="0 0 24 24"
+				>
+					<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+				</svg>
+			</li>
+			<li class="pb-2">
+				<svg
+					fill="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					class="w-7 h-6 "
+					viewBox="0 0 24 24"
+				>
+					<path
+						d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+					/>
+				</svg>
+			</li>
+			<li class="pb-2">
+				<svg
+					fill="none"
+					stroke="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					class="w-7 h-6 border:color-red"
+					viewBox="0 0 24 24"
+				>
+					<rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+					<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+				</svg>
+			</li>
+			<li>
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-6 icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+				<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+				<path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
+			 </svg>
+			</li>
+		</ul>
 	</div>
 </div>

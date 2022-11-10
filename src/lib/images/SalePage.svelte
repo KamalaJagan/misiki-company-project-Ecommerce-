@@ -1,4 +1,4 @@
-<div class="font-serif">
+<div class="font-sans-serif">
 	<h1 class=" mt-4 text-4xl text-black my-auto text-center px-20">Sale</h1>
 </div>
 <div class=" grid grid-cols-1 lg:grid-cols-5 px-4 mt-10 gap-10">
