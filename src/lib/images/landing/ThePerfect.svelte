@@ -1,15 +1,14 @@
-<div class=" lg:max-w-6xl gap-6 text-center h-auto bg:w-full flex mt-10 text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
+
+<div class=" lg:max-w-6xl gap-6 text-center p-5 h-auto bg:w-full flex-row  text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
 	<div class="w-full h-full">
-		<img src="/C4.webp" alt="....." />
+		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
 	</div>
-	<div class="flex grid grid-cols-1 grid-cols-2 ">
+	<div class="flex-row grid grid-cols grid-cols-2 ">
 		<div>
 			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
-					src="/C5.webp"
-					class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
+					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Lucy-307-Editwebsize_1100x.jpg?v=1580810236"
+					class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"alt="....."/>
 			</div>
 			<div class="text-center mt-4 mb-6">
 				<div>Heart Harmony Ball</div>
@@ -19,10 +18,9 @@
 		<div class="w-full h-full ">
 			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
-					src="/C6.webp"
+					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Leah-159-Editwebsize_1100x.jpg?v=1580827311"
 					class=" object-cover h-full w-full transition duration-500 hover:scale-110"
-					alt="....."
-				/>
+					alt="....."/>
 			</div>
 			<div class="text-center mt-4 mb-6">
 				<div>Double Angle Wing Necklace</div>
@@ -36,8 +34,7 @@
 			</p>
 			<button
 				class="mt-4 h-12 uppercase text-white w-40 lg:w-40 tracking-wide bg-zinc-800 shadow-200 hover:bg-amber-300"
-				>Get the set</button
-			>
+				>Get the set</button>
 		</div>
 	</div>
 </div>

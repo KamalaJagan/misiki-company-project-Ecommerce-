@@ -1,9 +1,5 @@
-<footer
-	class="text-white justify-center bg-[#313127] p-5 sm:p-10 mx-auto fixed-end w-full font-sans-serif text-normal "
->
-	<div
-		class="mb-5 container justify-center mx-auto grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center gap-3 mx-auto md:max-w-2xl lg:max-w-6xl"
-	>
+<footer class="text-white justify-center bg-[#313127] p-5 sm:p-10 mx-auto fixed-end w-full font-sans-serif text-normal ">
+	<div class="mb-5 container justify-center grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center gap-3 mx-auto md:max-w-2xl lg:max-w-6xl">
 		<div>
 			<h4>CONTACT US</h4>
 			<ul class="col-span-1 p-4">
@@ -15,7 +11,7 @@
 		<div>
 			<h4>LINKS</h4>
 			<ul class="col-span-1 p-4">
-				<li class="pb-2 hover:text-gray-500">Shop</li>
+				<li class="pb-2 hover:text-gray-500"><a href="/shop">Shop</a></li>
 				<li class="pb-2 hover:text-gray-500"><a href="/aboutus">About us</a></li>
 				<li class="pb-2 hover:text-gray-500"><a href="/shipping">Shipping Policy</a></li>
 				<li class="pb-2 hover:text-gray-500"><a href="/contact">Contact Us</a></li>
@@ -86,20 +82,20 @@
 				</li>
 				<li class="pb-2">
 					<svg
-						fill="currentColor"
-						stroke="currentColor"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="0"
-						class="w-5 h-5 hover:text-gray-500"
-						viewBox="0 0 24 24"
-					>
-						<path
-							stroke="none"
-							d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-						/>
-						<circle cx="4" cy="4" r="2" stroke="none" />
-					</svg>
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-5 h-5 hover:text-gray-500"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+				</svg>
 				</li>
 			</ul>
 		</div>

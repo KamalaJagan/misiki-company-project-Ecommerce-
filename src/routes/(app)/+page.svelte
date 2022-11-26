@@ -13,7 +13,7 @@
 	
 </script>
  
-<LandingPage />
+<LandingPage/>
 <ThreeImg/>
 <Discover/>
 <AsSeen/>
