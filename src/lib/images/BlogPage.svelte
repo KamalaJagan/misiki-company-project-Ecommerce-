@@ -2,10 +2,10 @@
 	import { each } from 'svelte/internal';
 	import blogC1 from '$lib/assets/blog/c1.webp';
 	import blogC3 from '$lib/assets/blog/c3.webp';
-	import brandA1 from '$lib/assets/bran/A1.jpg';
-	import brandA2 from '$lib/assets/bran/A2.jpg';
-	import brandA3 from '$lib/assets/bran/A3.webp';
-	import brandA4 from '$lib/assets/bran/A4.webp';
+	import brandA1 from '$lib/assets/bran/a1.jpg';
+	import brandA2 from '$lib/assets/bran/a2.jpg';
+	import brandA3 from '$lib/assets/bran/a3.webp';
+	import brandA4 from '$lib/assets/bran/a4.webp';
 	let outs = [
 		{
 			image: blogC1,
