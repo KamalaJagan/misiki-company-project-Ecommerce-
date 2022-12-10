@@ -90,7 +90,7 @@
 	<div class="w-full lg:h-[120vh]">
 		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
 	</div>
-	<div class="flex-row grid grid-cols grid-cols-2 ">
+	<div class="flex-row grid grid-cols grid-cols-2">
 		<div>
 			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
@@ -102,7 +102,7 @@
 				<div>$42.95</div>
 			</div>
 		</div>
-		<div class="w-full h-full ">
+		<div class="w-full h-full">
 			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Leah-159-Editwebsize_1100x.jpg?v=1580827311"
@@ -114,8 +114,8 @@
 				<div>$32.95</div>
 			</div>
 		</div>
-		<div class="h-96 col-span-2 text-start ">
-			<h1 class="text-3xl font-thin-100 text-black font-serif ">The perfect pair</h1>
+		<div class="h-96 col-span-2 text-start">
+			<h1 class="text-3xl font-thin-100 text-black font-serif">The perfect pair</h1>
 			<p class="mt-2">
 				Combine these two pieces for a neckline drop that is sure to turn heads and bag 25% off!
 			</p>

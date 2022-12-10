@@ -47,7 +47,7 @@
 	<div class=" ">
 		<h1 class="text-center mb-6 p-6 text-4xl font-serif">Meet the maker</h1>
 		{#each users as { text }}
-			<div class="py-2 px-24 text-lg lg:px-52 font-sans-serif">
+			<div class="py-2 px-24 text-lg lg:px-52 font-sans-serif text-gray-700">
 				<p>{text}</p>
 			</div>
 		{/each}

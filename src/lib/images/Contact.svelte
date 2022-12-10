@@ -58,7 +58,7 @@
 </script>
 
 <div>
-	<div class="mt-10 text-center font-serif">
+	<div class="mt-10 text-center font-serif text-gray-700">
 		<h1 class="text-4xl text-black my-auto text-center px-20">FAQs</h1>
 	</div>
 	<div class="mt-10 text-xl max-w-8xl text-gray-700 my-auto justify-center px-52 p-5 font-sans-serif">

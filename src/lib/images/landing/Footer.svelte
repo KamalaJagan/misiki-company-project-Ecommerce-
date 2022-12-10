@@ -1,5 +1,8 @@
-<footer class="text-white justify-center bg-[#313127] p-5 sm:p-10 mx-auto fixed-end w-full font-sans-serif text-normal ">
-	<div class="mb-5 container justify-center grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center gap-3 mx-auto md:max-w-2xl lg:max-w-6xl">
+<footer
+	class="text-white justify-center bg-[#313127] p-5 sm:p-10 mx-auto fixed-end w-full font-sans-serif text-normal">
+	<div
+		class="mb-5 container justify-center grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center gap-3 mx-auto md:max-w-2xl lg:max-w-6xl"
+	>
 		<div>
 			<h4>CONTACT US</h4>
 			<ul class="col-span-1 p-4">
@@ -11,10 +14,10 @@
 		<div>
 			<h4>LINKS</h4>
 			<ul class="col-span-1 p-4">
-				<li class="pb-2 hover:text-gray-500"><a href="/shop">Shop</a></li>
-				<li class="pb-2 hover:text-gray-500"><a href="/aboutus">About us</a></li>
-				<li class="pb-2 hover:text-gray-500"><a href="/shipping">Shipping Policy</a></li>
-				<li class="pb-2 hover:text-gray-500"><a href="/contact">Contact Us</a></li>
+				<li class="pb-2 hover:text-stone-400"><a href="/shop">Shop</a></li>
+				<li class="pb-2 hover:text-stone-400"><a href="/aboutus">About us</a></li>
+				<li class="pb-2 hover:text-stone-400"><a href="/shipping">Shipping Policy</a></li>
+				<li class="pb-2 hover:text-stone-400"><a href="/contact">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class=" ">
@@ -82,28 +85,30 @@
 				</li>
 				<li class="pb-2">
 					<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="w-5 h-5 hover:text-gray-500"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					stroke-width="2"
-					stroke="currentColor"
-					fill="none"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
-					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-					<path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
-				</svg>
+						xmlns="http://www.w3.org/2000/svg"
+						class="w-5 h-5 hover:text-gray-500"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke="currentColor"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+					</svg>
 				</li>
 			</ul>
 		</div>
 	</div>
 	<div
-		class="md:flex md:items-left md:justify-center lg:justify-end gap-3 max-w-6xl sm:p-4 container mx-auto ">
+		class="md:flex md:items-left md:justify-center lg:justify-end gap-3 max-w-6xl sm:p-4 container mx-auto "
+	>
 		<button
-			class="flex justify-center gap-2 mb-4 duration-300 px-2 py-3.5 hover:rounded text-white md:w-auto w-full lg:w-60 lg:h-14 border-2 ">
+			class="flex justify-center gap-2 mb-4 duration-300 px-2 py-3.5 hover:rounded text-white md:w-auto w-full lg:w-60 lg:h-14 border-2 "
+		>
 			United State(USD $)
 			<svg
 				fill="none"
@@ -112,7 +117,8 @@
 				stroke="currentColor"
 				stroke-linejoin="round"
 				stroke-linecap="round"
-				class="w-6 h-6 hover:text-gray-500">
+				class="w-6 h-6 hover:text-gray-500"
+			>
 				<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 			</svg>
 		</button>

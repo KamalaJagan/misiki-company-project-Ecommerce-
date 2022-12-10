@@ -206,9 +206,9 @@
 	</div>
 	<!--------------------------------------------- Navbar end 3---------------------------------- -->
 <!--------------------------------------------- Navbar start 4---------------------------------- -->
-	<div class="p-4 cursor-pointer container font-sans-serif tracking-widest">
+	<div class="p-4 container font-sans-serif tracking-widest">
 		<ul class="hidden md:flex flex-row gap-8 justify-center uppercase">
-			<li class="hover:text-gray-500 flex gap-2">
+			<li class="hover:text-gray-500 flex gap-2 cursor-pointer">
 				new in
 				<button>
 					<svg
@@ -222,10 +222,10 @@
 						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
 				</button>
 			</li>
-			<li class="hover:text-gray-500"><a href="/nacleses">Necklaces</a></li>
-			<li class="hover:text-gray-500">Earrings</li>
-			<li class="hover:text-gray-500"><a href="/[slug]/anklet">Anklets</a></li>
-			<li class="hover:text-gray-500 flex gap-2">
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/nacleses">Necklaces</a></li>
+			<li class="hover:text-gray-500 cursor-pointer">Earrings</li>
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/anklet">Anklets</a></li>
+			<li class="hover:text-gray-500 flex gap-2 cursor-pointer">
 				Collections<svg
 					fill="none"
 					viewBox="0 0 24 24"
@@ -237,9 +237,9 @@
 					<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 				</svg>
 			</li>
-			<li class="hover:text-gray-500"><a href="/sale">Sale</a></li>
-			<li class="hover:text-gray-500"><a href="/theme">Theme features</a></li>
-			<li class="hover:text-gray-500 flex gap-2">
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/sale">Sale</a></li>
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/theme">Theme features</a></li>
+			<li class="hover:text-gray-500 flex gap-2 cursor-pointer">
 				Demos<svg
 					fill="none"
 					viewBox="0 0 24 24"

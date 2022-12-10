@@ -97,6 +97,7 @@
 			id="selling"
 			class="border w-80 border-gray-300 text-gray-900 text-sm border-l-gray-100 dark:border-l-gray-700 border-l-2 focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 		>
+		
 			<option selected>Featured</option>
 			<option value="BA">Best selling</option>
 			<option value="TX">Alphabetically, A-Z</option>
@@ -138,7 +139,7 @@
 		</select>
 	</div>
 
-	<div class=" font-sans-serif flex col-span-4">
+	<div class="font-sans-serif flex col-span-4">
 		<div class=" text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 			{#each neckles as nec, bx}
 			<div>
