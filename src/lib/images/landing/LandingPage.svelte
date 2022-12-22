@@ -2,14 +2,14 @@
 	
 </script>
 <div >	
-	<div class="hidden z-10 relative bg-no-repeat bg-cover h-96 w-full lg:h-[640px] lg:w-[210vh] object-cover" style="background-image:url('/image.webp');">
+	<div class="hidden z-10 relative bg-no-repeat bg-cover h-[100vh] w-full lg:h-[640px] lg:w-[210vh] object-cover" style="background-image:url('/image.webp');">
 	<div class="absolute top-52 px-20 left-0 h-full w-full">
 		<h5 class="text-black my-auto pb-1 text-sm">EXCLUSIVE GIFT RANGE</h5>
 		<h2 class="text-4xl text-black my-auto font-serif cursor-pointer mt-5">Exclusive gift range</h2>
 		<button class="mt-4 h-12 uppercase text-black w-36 tracking-wide bg-yellow-200 shadow-200 hover:bg-zinc-700 cursor-pointer">Shop now</button>
 	</div>
 	</div>
-	<div class="z-10 relative bg-no-repeat bg-cover h-96 w-full lg:h-[640px] lg:w-[210vh] object-cover" style="background-image:url('/img2.webp');">
+	<div class="z-10 relative bg-no-repeat h-[100vh] w-full lg:h-[640px] lg:w-[210vh] object-cover" style="background-image:url('/img2.webp');">
 	<div class="absolute top-52 px-20 left-0 h-full w-full">
 		<h5 class="text-white my-auto pb-1 text-sm">NEW COLLECTION</h5>
 		<h2 class="text-4xl text-white my-auto font-serif cursor-pointer mt-5">Looking for something spacial?</h2>

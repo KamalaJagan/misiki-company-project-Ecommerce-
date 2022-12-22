@@ -1,11 +1,11 @@
 
-<div class=" lg:max-w-6xl gap-6 text-center p-5 h-auto bg:w-full flex-row  text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
-	<div class="w-full h-full">
+<div class=" lg:max-w-6xl gap-6 text-center p-5 bg:w-full flex-row text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
+	<div class="w-full ">
 		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
 	</div>
-	<div class="flex-row grid grid-cols grid-cols-2 ">
+	<div class="flex-row grid grid-cols grid-cols-2 gap-4">
 		<div>
-			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
+			<div class="overflow-hidden lg:h-96 w-auto lg:w-60">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Lucy-307-Editwebsize_1100x.jpg?v=1580810236"
 					class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"alt="....."/>
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 		<div class="w-full h-full ">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
+			<div class="overflow-hidden lg:h-96 w-auto lg:w-60">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Leah-159-Editwebsize_1100x.jpg?v=1580827311"
 					class=" object-cover h-full w-full transition duration-500 hover:scale-110"
@@ -27,8 +27,8 @@
 				<div>$32.95</div>
 			</div>
 		</div>
-		<div class="h-96 col-span-2 text-start ">
-			<h1 class="text-3xl font-thin-100 text-black font-serif ">The perfect pair</h1>
+		<div class="lg:h-96 col-span-2 lg:text-start text-center">
+			<h1 class="text-3xl  font-thin-100 text-black font-serif ">The perfect pair</h1>
 			<p class="mt-2">
 				Combine these two pieces for a neckline drop that is sure to turn heads and bag 25% off!
 			</p>

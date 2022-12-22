@@ -96,7 +96,12 @@
 </script>
 
 <div class="">
-	<img src="img2.webp" class="lg:w-[210vh] w-full h-[45vh] object-cover" alt="..." />
+	<img src="img2.webp" class="lg:w-[210vh] w-full h-[85vh] lg:h-[48vh] object-cover relative " alt="..." />
+	<div class="absolute lg:top-80 text-center lg:ml-[70vh] top-[50vh] p-5">
+		<h5 class="text-white text-5xl font-serif">Introducing Envy</h5>
+		<h2 class="text-base text-white my-auto font-serif cursor-pointer mt-5">The Envy theme boasts flexible sections to use across your store.</h2>
+		<!-- <button class="mt-4 h-12 uppercase text-black w-36 tracking-wide bg-yellow-200 shadow-200 hover:bg-zinc-700 cursor-pointer">Shop now</button> -->
+	</div>
 </div>
 
 
@@ -106,6 +111,7 @@
 		alt="."
 		class="h-[55vh] ml-2"
 	/>
+	
 	<div class="mt-4 lg:mt-24 font-sans">
 		<h1 class="text-3xl font-serif">Built to help you sell more</h1>
 		<p class="text-base mt-4">
@@ -121,8 +127,8 @@
 </div>
 
 <div class="bg-[#faf8ee] w-full lg:w-[210vh] lg:h-40 mb-10 h-60">
-	<p class="text-center text-3xl font-serif mt-10 px-4">Everything you need to convert your customers</p>
-	<p class="text-base font-sans-serif text-center mt-3">
+	<p class="text-center text-3xl font-serif py-6 px-4">Everything you need to convert your customers</p>
+	<p class="text-base font-sans-serif text-center">
 		From lookbooks, to FAQ pages, and more. With a slick and contemporary design that really
 		showcase your products and imagery.
 	</p>
@@ -133,7 +139,7 @@
 <div
 	class="grid h-auto text-center sm:p-5 grid-cols-1 lg:grid-cols-3 gap-4 max-w-6xl mx-auto w-full lg:w-[210vh] bg-cover tracking-wider mt-10 mb-10">
 	{#each logs as logo, bx}
-		<img src={logo.image} alt="." class="lg:h-16" />
+		<img src={logo.image} alt="." class="lg:h-16"/>
 		<div class=" text-sm">
 			<div>{logo.name}</div>
 			<p class="mt-2">{logo.paragraph}</p>
@@ -186,12 +192,12 @@
 </div>
 
 
-<div class="bg-[#faf8ee] w-full lg:w-[210vh] p-5 mb-10 mt-16">
+<div class="bg-[#faf8ee] w-full lg:w-[210vh] mb-10 mt-16">
 	<div
 		class="grid justify-center items-center text-center p-5 grid-cols-1 lg:grid-cols-3 gap-4 mx-auto max-w-6xl bg-cove tracking-wider "
 	>
 		{#each logoos as log, bx}
-			<img src={log.image} alt="." class="lg:h-16 items-center ml-6" />
+			<img src={log.image} alt="." class="lg:h-16 items-center lg:ml-4" />
 			<div class="text-sm">
 				<div>{log.name}</div>
 				<p class="mt-2">{log.paragraph}</p>
@@ -201,7 +207,7 @@
 </div>
 
 
-<div class="max-w-6xl p-5 lg:ml-[29vh] mb-10 w-full lg:w-[210vh]">
+<div class="max-w-6xl p-5 lg:ml-[23vh] mb-10 w-full lg:w-[205vh]">
 	<h1 class="text-4xl font-serif">KEY FEATURES</h1>
 	<div class="flex justify-between mt-4 cursor-pointer">
 		<div class="text-sm">PRODUCT PAGE</div>

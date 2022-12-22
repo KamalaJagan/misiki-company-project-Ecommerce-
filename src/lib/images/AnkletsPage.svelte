@@ -21,9 +21,9 @@
 <div class="font-serif">
 	<h1 class=" mt-4 text-4xl text-black my-auto text-center px-20">Necklaces</h1>
 </div>
-<div class=" grid grid-cols-1 lg:grid-cols-5 px-4 mt-10 gap-10">
+<div class=" grid grid-cols-1 lg:grid-cols-5 lg:ml-8 mt-10 ">
 	<div class="">
-		<h2 class="uppercase mt-2">Sort by</h2>
+		<h2 class="uppercase mt-2 mb-6">Sort by</h2>
 		<label for="selling" class="sr-only">Featured</label>
 		<select
 			id="selling"
@@ -64,7 +64,7 @@
 	</div>
 
 	<div class=" font-serif flex col-span-4">
-		<div class=" text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+		<div class="text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 			{#each anklets as ank, bx}
 			<div>
 				<img src={ank.image} alt="..." class="object-cover h-auto w-full mb-2" />
@@ -86,11 +86,11 @@
 		</div>
 	</div>
 </div>
-<div class="bg-[#faf8ee] lg:h-[920px] h-auto lg:w-[310vh] w-full font-sans-serif mt-10 lg:max-w-6xl gap-6 text-center p-5 text-gray-500 grid grid-cols-1 lg:grid-cols-2 mx-auto">
-	<div class="w-full lg:h-[120vh]">
-		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
+<div class="bg-[#faf8ee] lg:h-[130vh] mb-10 h-[200vh] lg:w-[210vh] font-sans-serif mt-10 max-w-6xl gap-6 text-center p-5 text-gray-500 grid grid-cols-1 lg:grid-cols-2 mx-auto">
+	<div class="w-full mt-4 lg:h-[120vh]">
+		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" alt="....." />
 	</div>
-	<div class="flex-row grid grid-cols grid-cols-2">
+	<div class="flex-row grid grid-cols grid-cols-2 mt-4">
 		<div>
 			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
 				<img

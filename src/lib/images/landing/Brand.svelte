@@ -64,14 +64,14 @@
 	<h5 class="uppercase text-center mt-10 text-gray-800">Brand New</h5>
 	<h1 class="text-center text-4xl mt-4 text-gray-800 font-serif">The wishing locket</h1>
 	<div
-		class="grid h-auto p-5 grid-flow-row md:grid-cols-4 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
+		class="grid h-auto grid-flow-row md:grid-cols-4 mt-2 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
 	>
 		{#each bands as bran, bx}
 			<div class="hover:text-gray-500">
 				<div class="overflow-hidden lg:h-96 h-auto w-auto">
 					<img
 						src={bran.image}
-						class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
+						class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"
 						alt="....."
 					/>
 				</div>

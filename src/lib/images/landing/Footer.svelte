@@ -14,7 +14,7 @@
 		<div>
 			<h4>LINKS</h4>
 			<ul class="col-span-1 p-4">
-				<li class="pb-2 hover:text-stone-400"><a href="/shop">Shop</a></li>
+				<li class="pb-2 hover:text-stone-400"><a href="/shops">Shop</a></li>
 				<li class="pb-2 hover:text-stone-400"><a href="/aboutus">About us</a></li>
 				<li class="pb-2 hover:text-stone-400"><a href="/shipping">Shipping Policy</a></li>
 				<li class="pb-2 hover:text-stone-400"><a href="/contact">Contact Us</a></li>

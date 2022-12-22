@@ -1,6 +1,5 @@
-
 <script>
-	import { each } from "svelte/internal";
+	import { each } from 'svelte/internal';
 	import blogC1 from '$lib/assets/blog/c1.webp';
 	import blogC2 from '$lib/assets/blog/c2.webp';
 	import blogC3 from '$lib/assets/blog/c3.webp';
@@ -16,7 +15,7 @@
 		},
 		{
 			text: 'Many of the pieces have natural shapes and textures to reflect the beautiful surroundings of the Cornish countryside. The stones and metals are sourced locally where possible and everything is made in our studio just back from the St.Ives harbour.'
-		}
+		},
 	];
 	let blogs = [
 		{
@@ -24,30 +23,30 @@
 			name: 'The journey of the gemstone',
 			date: 'April 05, 2018',
 			text: 'A gemstone (also called a gem, fine gem, jewel, precious stone, or semi-precious stone) is a piece of mineral crystal which, in cut and polished form, is used to make jewelry or other adornments. Join us on...',
-			button: 'Read more',
+			button: 'Read more'
 		},
 		{
 			image: blogC2,
 			name: 'jewellery to suit your skin tone?',
 			date: 'April 05, 2018',
 			text: 'Much like wearing makeup, wearing jewellery can really highlight your features and accentuate your beauty. It can bring out your skin tones, the colour of your hair...',
-			button: 'Read more',
+			button: 'Read more'
 		},
 		{
 			image: blogC3,
 			name: 'Big statements with minimal jewellery',
 			date: 'October 17, 2017',
 			text: 'This collection is a mermaids dream featuring all natural mother of pearl and abalone from the depths of the sea. All of our pieces are hand...',
-			button: 'Read more',
+			button: 'Read more'
 		},
 	];
 </script>
 
 <div class="">
 	<div class=" ">
-		<h1 class="text-center mb-6 p-6 text-4xl font-serif">Meet the maker</h1>
+		<h1 class="text-center mb-6 p-2 text-4xl font-serif">Meet the maker</h1>
 		{#each users as { text }}
-			<div class="py-2 px-24 text-lg lg:px-52 font-sans-serif text-gray-700">
+			<div class="py-2 p-6 text-lg lg:px-52 font-sans-serif text-gray-700">
 				<p>{text}</p>
 			</div>
 		{/each}
@@ -57,11 +56,11 @@
 	</div>
 
 	<div class=" lg:h-[700px] h-auto bg:w-full font-sans-serif ">
-		<h1 class="text-center p-5 mt-10 text-4xl text-gray-800 font-serif font-light">
+		<h1 class="text-center mt-24 lg:mt-10 text-4xl text-gray-800 font-serif font-light">
 			From the blog
 		</h1>
 		<div
-			class="grid h-auto p-5 grid-flow-row grid-cols-1 lg:grid-cols-3 gap-8 mx-auto max-w-6xl w-full bg-cover"
+			class="grid h-auto p-4  grid-flow-row grid-cols-1 lg:grid-cols-3 gap-8 mx-auto max-w-6xl w-full bg-cover"
 		>
 			{#each blogs as blog, bx}
 				<div>
@@ -79,17 +78,17 @@
 		</div>
 	</div>
 </div>
-<div class="bg-[#faf8ee] mt-14 lg:h-[200px] lg:w-[210vh] md:w-[110vh] font-sans-serif ">
+<div class="bg-[#faf8ee] p-2 mt-14 h-[32vh] lg:h-[35vh] lg:w-[210vh] md:w-[110vh] font-serif ">
 	<p class="text-center mt-12 text-4xl">Find out more on our socials</p>
 	<div>
-		<ul class="col-span-1 p-4 flex gap-4 justify-center mt-6">
+		<ul class="col-span-1 p-4 flex gap-8 justify-center mt-6">
 			<li class="pb-2">
 				<svg
 					fill="currentColor"
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					class="w-7 h-6 bg:blue-200"
+					class="w-7 h-7 text-white bg-blue-900"
 					viewBox="0 0 24 24"
 				>
 					<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
@@ -101,7 +100,7 @@
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					class="w-7 h-6 "
+					class="w-7 h-7 text-blue-400"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -116,7 +115,7 @@
 					stroke-linecap="round"
 					stroke-linejoin="round"
 					stroke-width="2"
-					class="w-7 h-6 border:color-red"
+					class="w-7 h-7 text-red-600"
 					viewBox="0 0 24 24"
 				>
 					<rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
@@ -124,21 +123,11 @@
 				</svg>
 			</li>
 			<li>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="w-7 h-6 icon icon-tabler icon-tabler-brand-tiktok"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					stroke-width="2"
-					stroke="currentColor"
-					fill="none"
-					stroke-linecap="round"
-					stroke-linejoin="round"
+				<svg role="img" viewBox="0 0 24 24" class="h-6 w-7" xmlns="http://www.w3.org/2000/svg"
+					><path
+						d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+					/></svg
 				>
-					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-					<path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
-				</svg>
 			</li>
 		</ul>
 	</div>

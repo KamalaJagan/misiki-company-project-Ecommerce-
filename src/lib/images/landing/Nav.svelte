@@ -89,12 +89,12 @@
 		</div>
 		<hr class="w-full black-800 dark:bg-gray-700" />
 	</div> -->
-<!--------------------------------------------- Navbar end 1---------------------------------- -->
-<!--------------------------------------------- Navbar start 2---------------------------------- -->
+<!--------------------------------------------- Navbar end 1--------------------------------------->
+<!--------------------------------------------- Navbar start 2------------------------------------->
 	<div>
 		<!-- <hr class=" w-full black-800 dark:bg-gray-700" /> -->
 		<div
-			class=" bg-[#f2ebce] w-full shadow-md drop-shadow-sm inline-flex justify-center gap-4 font-bold-10 p-3 font-sans-serif ">
+			class="bg-[#f2ebce] w-full shadow-md drop-shadow-sm inline-flex justify-center gap-4 font-bold-10 p-3 font-sans-serif ">
 			Free shipping when spend over $100!
 		</div>
 	</div>
@@ -129,14 +129,12 @@
 				<img
 					src={logo22A}
 					class="h-9 w-auto object-contain object-center flex-shrink-0"
-					alt="..."
-				/>
+					alt="..."/>
 			</div>
 
 			<div class="gap-6 items-center flex col-span-1 justify-end">
 				<button
-					class="hidden md:flex justify-center gap-2 duration-300 px-2 py-3.5 hover:text-gray-500 md:w-auto lg:w-52 lg:h-14 border border-gray-700 dark:placeholder-gray-400 "
-				>
+					class="hidden md:flex justify-center gap-2 duration-300 px-2 py-3.5 hover:text-gray-500 md:w-auto lg:w-52 lg:h-14 border border-gray-700 dark:placeholder-gray-400">
 					United State(USD $)
 					<svg
 						fill="none"
@@ -145,8 +143,7 @@
 						stroke="currentColor"
 						stroke-linejoin="round"
 						stroke-linecap="round"
-						class="w-4 h-7 hover:text-gray-500"
-					>
+						class="w-4 h-7 hover:text-gray-500">
 						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 					</svg>
 				</button>
@@ -182,11 +179,11 @@
 							<path
 								stroke-Linecap="round"
 								stroke-Linejoin="round"
-								d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-							/>
+								d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
 						</svg></a>
 				</button>
 				<button>
+					<a href="/carts">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="w-5 h-8 hover:text-gray-500"
@@ -200,6 +197,7 @@
 							d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
 						/>
 					</svg>
+				</a>
 				</button>
 			</div>
 		</div>
@@ -219,11 +217,11 @@
 						stroke-linejoin="round"
 						stroke-linecap="round"
 						class="w-4 h-6 hover:text-gray-500">
-						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
 				</button>
 			</li>
-			<li class="hover:text-gray-500 cursor-pointer"><a href="/nacleses">Necklaces</a></li>
-			<li class="hover:text-gray-500 cursor-pointer">Earrings</li>
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/neckless">Necklaces</a></li>
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/anklet">Earrings</a></li>
 			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/anklet">Anklets</a></li>
 			<li class="hover:text-gray-500 flex gap-2 cursor-pointer">
 				Collections<svg
@@ -237,7 +235,7 @@
 					<path d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 				</svg>
 			</li>
-			<li class="hover:text-gray-500 cursor-pointer"><a href="/sale">Sale</a></li>
+			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/neckless">Sale</a></li>
 			<li class="hover:text-gray-500 cursor-pointer"><a href="/theme">Theme features</a></li>
 			<li class="hover:text-gray-500 flex gap-2 cursor-pointer">
 				Demos<svg

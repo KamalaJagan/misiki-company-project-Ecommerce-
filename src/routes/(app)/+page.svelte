@@ -10,9 +10,9 @@
 	import ThreeImg from "$lib/images/landing/ThreeImg.svelte";
 	
 
-	
 </script>
  
+
 <LandingPage/>
 <ThreeImg/>
 <Discover/>

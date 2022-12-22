@@ -1,6 +1,6 @@
-<div class="bg-[#faf8ee] lg:h-[200px] h-auto bg:w-full font-sans-serif">
+<div class="bg-[#faf8ee] lg:h-[200px] p-4 h-auto bg:w-full font-sans-serif">
 	<div>
-		<div class="flex flex-row text-center justify-center mt-10 text-gray-800">
+		<div class="flex text-center justify-center mt-10 text-gray-800">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-7 w-7"

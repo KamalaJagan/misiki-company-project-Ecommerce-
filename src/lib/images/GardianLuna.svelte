@@ -90,7 +90,7 @@
 </script>
 
 <!-- --------------------------------------------Image details and choices start ----------------------------------------------------- -->
-<div class="flex gap-2 text-xs mt-5 lg:ml-[28vh] lg:mt-10 m-2">
+<div class="flex gap-2 ml-3 text-xs mt-5 lg:ml-[30vh] lg:mt-10 m-2">
 	<button class="hover:underline">Home</button>
 	<h3>Guardian Luna Blue Topaz Necklace</h3>
 </div>
@@ -205,7 +205,7 @@
 				class="hover:underline italic cursor-pointer">Clover & Swift</a
 			>.
 		</p>
-		<div class="flex lg:ml-4 mt-10">
+		<div class="flex ml-4 mt-4">
 			<div>Material type</div>
 			<div class="ml-6">18k Gold Vermeil</div>
 		</div>
@@ -230,7 +230,7 @@
 		<hr class=" w-[61vh] mt-4" />
 		<div class="flex ml-4 mt-2">
 			<div>Packaging</div>
-			<div class="ml-12 mr-60">
+			<div class="ml-12 lg:mr-52">
 				Comes beautifully displayed on card. Clover and Swift cotton bag to keep your treasured
 				pieces safe. All of our packaging is plastic free
 			</div>
@@ -760,7 +760,7 @@
 		</h3>
 	</div>
 	<hr class="ml-7 mr-7" />
-	<div class="flex p-4 justify-between ">
+	<div class="flex justify-between ml-7 mt-2 mb-2 mr-3">
 		<div class="flex gap-1 items-center">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 mt-1">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5" />
@@ -798,21 +798,7 @@
 				alt="..."
 			/>
 		{/each}
-		<!-- <img
-			src="af.avif"
-			class="lg:h-32 w-auto h-28 object-contain object-top flex-shrink-0"
-			alt="..."
-		/>
-		<img
-			src="aff.avif"
-			class="lg:h-32 w-auto h-28 object-contain object-top flex-shrink-0"
-			alt="..."
-		/>
-		<img
-			src="afff.avif"
-			class="lg:h-32 w-auto h-28 object-contain object-top flex-shrink-0"
-			alt="..."
-		/> -->
+	
 	</div>
 </div>
 
@@ -824,27 +810,15 @@
 <div class="mt-5 h-auto bg:w-full font-sans-serif ">
 	<h1 class="text-center mt-4 text-4xl text-gray-800 font-serif font-light">You may also like</h1>
 	<div
-		class="grid h-auto p-5 grid-flow-row grid-cols-2 md:grid-cols-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover"
+		class="grid h-auto mt-5 grid-flow-row grid-cols-2 md:grid-cols-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover"
 	>
 		{#each gards as grand, bx}
-			<!-- <div class="hover:text-gray-500">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
-				<img
-					src={grand.image}
-					class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
-			</div>
-			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer hover:underline">
-				<div>{grand.name}</div>
-				<div>{grand.amount}</div>
-			</div>
-		</div> -->
+			
 			<div class="hover:text-gray-500">
 				<div class="overflow-hidden lg:h-96 h-auto w-auto">
 					<img
 						src={grand.image}
-						class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
+						class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"
 						alt="....."
 					/>
 				</div>
@@ -855,45 +829,6 @@
 				</div>
 			</div>
 		{/each}
-		<!-- <div class="hover:text-gray-500 relative">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto ">
-				<img
-					src="A21.webp"
-					class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
-			</div>
-			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer hover:underline">
-				<div class="mt-2">Bold Cuffs</div>
-				<div>$14.95</div>
-			</div>
-		</div>
-		<div class="hover:text-gray-500 relative">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
-				<img
-					src="A22.webp"
-					class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
-			</div>
-			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer hover:undeline">
-				<div class="mt-2">Angel Wing Satellite Chain Necklace</div>
-				<div>$25.95</div>
-			</div>
-		</div>
-		<div class="hover:text-gray-500">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
-				<img
-					src="A23.webp"
-					class="object-cover h-full w-full mb-4 transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
-			</div>
-			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div class="mt-4">Small Circle Studs</div>
-				<div>$12.95</div>
-			</div>
-		</div> -->
 	</div>
 </div>
 
