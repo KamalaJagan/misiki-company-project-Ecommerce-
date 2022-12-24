@@ -7,7 +7,7 @@
 	import NecklacesA5 from '$lib/assets/logo/L16.webp';
 
 	import NecklacesA6 from '$lib/assets/logo/L17.webp';
-	import NecklacesA7 from '$lib/assets/bran/A5.webp';
+	import NecklacesA7 from '$lib/assets/bran/a5.webp';
 	import NecklacesA8 from '$lib/assets/logo/L18.webp';
 
 	import NecklacesA9 from '$lib/assets/dis/G3.webp';
