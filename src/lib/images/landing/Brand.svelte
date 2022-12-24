@@ -64,7 +64,7 @@
 	<h5 class="uppercase text-center mt-10 text-gray-800">Brand New</h5>
 	<h1 class="text-center text-4xl mt-4 text-gray-800 font-serif">The wishing locket</h1>
 	<div
-		class="grid h-auto grid-flow-row md:grid-cols-4 mt-2 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
+		class="pb-8 p-4 h-auto mt-4 grid grid-flow-row gap-8 md:grid-cols-4 grid-cols-2 container mx-auto max-w-md lg:max-w-6xl"
 	>
 		{#each bands as bran, bx}
 			<div class="hover:text-gray-500">

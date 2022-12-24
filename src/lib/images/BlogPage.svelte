@@ -55,7 +55,7 @@
 		<h5>FEATURED BLOG POST</h5>
 		<h2 class="text-3xl text-black mt-4">Just in: Our New Beauty Oasis Collection</h2>
 	</div>
-	<div class="lg:ml-[38vh] ml-1 h-[72vh] w-[65vh] lg:w-[76vh]">
+	<div class="lg:ml-[38vh] ml-2 h-[72vh] w-[40vh] lg:w-[76vh]">
 		<img
 			src="https://cdn.shopify.com/s/files/1/0666/9309/articles/blog6_1100x.png?v=1629729722"
 			class=" justify-center mt-4 object-cover md:max-w-xl"
@@ -75,10 +75,10 @@
 	</div>
 </div>
 <div
-	class="mt-10 lg:mb-52 grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6  p-3 max-w-6xl"
+	class="lg:mt-10 lg:mb-52 grid p-4 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl"
 >
 	{#each outs as blog, bx}
-		<div class="lg:h-80 w-[65vh] lg:w-full ml-2">
+		<div class="lg:h-80 w-[40vh] lg:w-full ml-3">
 			<img src={blog.image} class="object-cover" alt="....." />
 			<div class="py-4">
 				<div class="uppercase hover:underline text-gray-500 text-sm cursor-pointer">
@@ -91,11 +91,11 @@
 		</div>
 	{/each}
 </div>
-<div class="font-sans-serif mb-10">
+<div class="font-sans-serif mb-10 ">
 	<h5 class="uppercase text-center mt-10 text-gray-800">Brand New</h5>
 	<h1 class="text-center text-4xl mt-4 text-gray-800 font-serif">The wishing locket</h1>
 	<div
-		class="grid h-auto grid-flow-row md:grid-cols-4 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
+		class="grid h-auto grid-flow-row p-4 md:grid-cols-4 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
 	>
 		{#each news as bran, bx}
 		<div class="hover:text-gray-500 mt-4" >

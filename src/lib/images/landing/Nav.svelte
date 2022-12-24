@@ -217,7 +217,7 @@
 						stroke-linejoin="round"
 						stroke-linecap="round"
 						class="w-4 h-6 hover:text-gray-500">
-						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+						<path d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>.
 				</button>
 			</li>
 			<li class="hover:text-gray-500 cursor-pointer"><a href="/[slug]/neckless">Necklaces</a></li>

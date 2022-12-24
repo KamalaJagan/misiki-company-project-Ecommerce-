@@ -62,10 +62,10 @@
 <div class="font-sans-serif mt-8">
 	<h5 class="uppercase text-center mt-10 text-gray-800">our best selling</h5>
 	<h1 class="text-center mt-5 text-4xl text-gray-800 font-serif">Harmony spheres</h1>
-	<div class="pb-8 h-auto mt-4 grid grid-flow-row gap-8 md:grid-cols-4 grid-cols-2 container mx-auto max-w-md lg:max-w-6xl ">
+	<div class="pb-8 p-4 h-auto mt-4 grid grid-flow-row gap-8 md:grid-cols-4 grid-cols-2 container mx-auto max-w-md lg:max-w-6xl ">
 		{#each bests as our, bx}
 		<div>
-			<div class="overflow-hidden lg:h-96 h-80 w-auto">
+			<div class="overflow-hidden lg:h-96 h-auto w-auto">
 			<img
 				src={our.image}
 				alt="..."

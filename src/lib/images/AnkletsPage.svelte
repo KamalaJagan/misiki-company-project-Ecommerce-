@@ -21,8 +21,8 @@
 <div class="font-serif">
 	<h1 class=" mt-4 text-4xl text-black my-auto text-center px-20">Necklaces</h1>
 </div>
-<div class=" grid grid-cols-1 lg:grid-cols-5 lg:ml-8 mt-10 ">
-	<div class="">
+<div class=" grid grid-cols-1 lg:grid-cols-5 lg:ml-8  mt-10 ">
+	<div class="p-4">
 		<h2 class="uppercase mt-2 mb-6">Sort by</h2>
 		<label for="selling" class="sr-only">Featured</label>
 		<select
@@ -64,10 +64,11 @@
 	</div>
 
 	<div class=" font-serif flex col-span-4">
-		<div class="text-center gap-4 mx-auto p-2 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+		<div class="text-center gap-4 mx-auto p-4 max-w-5xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 			{#each anklets as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-auto w-full mb-2" />
+			<div class="hover:text-gray-500">
+				<div class="overflow-hidden lg:h-[64vh] h-auto w-auto">
+				<img src={ank.image} alt="..." class="object-cover  h-full lg:w-[100vh] w-full transition duration-500 hover:scale-110 cursor-pointer" /></div>
 				<div class=" text-center mb-12">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
@@ -86,13 +87,16 @@
 		</div>
 	</div>
 </div>
-<div class="bg-[#faf8ee] lg:h-[130vh] mb-10 h-[200vh] lg:w-[210vh] font-sans-serif mt-10 max-w-6xl gap-6 text-center p-5 text-gray-500 grid grid-cols-1 lg:grid-cols-2 mx-auto">
-	<div class="w-full mt-4 lg:h-[120vh]">
-		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" alt="....." />
+
+
+<div class="bg-[#faf8ee] lg:w-[210vh]">
+<div class=" lg:max-w-6xl gap-6 text-center p-4 w-full flex-row text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
+	<div class="w-full ">
+		<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
 	</div>
-	<div class="flex-row grid grid-cols grid-cols-2 mt-4">
+	<div class="flex-row grid grid-cols grid-cols-2 gap-4">
 		<div>
-			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
+			<div class="overflow-hidden lg:h-96 w-auto lg:w-60">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Lucy-307-Editwebsize_1100x.jpg?v=1580810236"
 					class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"alt="....."/>
@@ -102,8 +106,8 @@
 				<div>$42.95</div>
 			</div>
 		</div>
-		<div class="w-full h-full">
-			<div class="overflow-hidden lg:h-96 h-auto w-auto lg:w-60">
+		<div class="w-full h-full ">
+			<div class="overflow-hidden lg:h-96 w-auto lg:w-60">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Leah-159-Editwebsize_1100x.jpg?v=1580827311"
 					class=" object-cover h-full w-full transition duration-500 hover:scale-110"
@@ -114,15 +118,15 @@
 				<div>$32.95</div>
 			</div>
 		</div>
-		<div class="h-96 col-span-2 text-start">
-			<h1 class="text-3xl font-thin-100 text-black font-serif">The perfect pair</h1>
+		<div class="lg:h-96 col-span-2 lg:text-start text-center">
+			<h1 class="text-3xl  font-thin-100 text-black font-serif ">The perfect pair</h1>
 			<p class="mt-2">
 				Combine these two pieces for a neckline drop that is sure to turn heads and bag 25% off!
 			</p>
 			<button
 				class="mt-4 h-12 uppercase text-white w-40 lg:w-40 tracking-wide bg-zinc-800 shadow-200 hover:bg-amber-300"
-				>Get the set
-			</button>
+				>Get the set</button>
 		</div>
 	</div>
+</div>
 </div>

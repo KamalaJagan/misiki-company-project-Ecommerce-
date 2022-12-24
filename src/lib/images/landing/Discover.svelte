@@ -10,7 +10,7 @@
 			name: "Guardian Luna Blue Topaz Nacklace",
 			amount1: "",
 			amount: "$69.95",
-			link:'shop'
+			link:'shop/gardian',
 		},
 		{
 			image: discoverG2,
@@ -40,7 +40,7 @@
 	<h5 class="uppercase text-center mt-10 text-sm text-gray-800 tracking-wide">discover</h5>
 	<h1 class="text-center mt-4 text-4xl text-gray-800 font-serif font-light">Our bestsellers</h1>
 	<div
-		class="grid h-auto grid-flow-row mt-2 grid-cols-2 md:grid-cols-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover">
+		class="grid h-auto grid-flow-row mt-2 grid-cols-2 md:grid-cols-4 p-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover">
 		{#each discovers as dis, bx}
 		<div class="hover:text-gray-500">
 			<div class="overflow-hidden lg:h-96 h-auto w-auto">

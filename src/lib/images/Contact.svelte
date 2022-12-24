@@ -62,7 +62,7 @@
 </div>
 
 <div
-	class="mt-6 text-base max-w-6xl text-gray-700  justify-center  lg:ml-[54vh] lg:mr-[56vh] ml-4 font-sans-serif"
+	class="mt-6 text-base max-w-6xl text-gray-700  justify-center lg:ml-[54vh] lg:mr-[56vh] p-4 font-sans-serif"
 >
 	{#each faqs as { text, name }}
 		<div>
@@ -74,7 +74,7 @@
 	{/each}
 </div>
 
-<div class="lg:h-[700px] h-auto bg:w-full font-sans-serif ">
+<div class="lg:h-[700px] h-auto bg:w-full font-sans-serif p-4">
 	<h1 class="text-center justify-center mt-10 text-4xl text-gray-800 font-serif font-light">
 		Contact us
 	</h1>
@@ -82,14 +82,14 @@
 		Got a question? We are happy to help you. Please contact us using the form below.
 	</p>
 	<form action="#" class="space-y-4 mt-8">
-		<div class="grid grid-cols-2 max-w-6xl">
+		<div class="grid grid-cols-1 lg:grid-cols-2 max-w-6xl ">
 			<div>
 				<label for="name" class="lg:ml-[55vh] text-base font-medium text-gray-900 ">Name</label>
 				<input
 					type="name"
 					id="name"
 					placeholder="name"
-					class="lg:ml-[55vh] mt-2 border w-[48vh] border-black text-gray-900 text-sm p-4"
+					class="lg:ml-[55vh] mt-2 border lg:w-[48vh] w-full border-black text-gray-900 text-sm p-4"
 					required
 				/>
 			</div>
@@ -99,7 +99,7 @@
 					type="email"
 					id="email"
 					placeholder="xy12@gmail.com"
-					class="lg:ml-[27vh] mt-2 w-[49vh] border border-black text-gray-900 text-sm p-4"
+					class="lg:ml-[27vh] mt-2 lg:w-[49vh] w-full border border-black text-gray-900 text-sm p-4"
 					required
 				/>
 			</div>
@@ -112,7 +112,7 @@
 				type="Phone number"
 				id="Phone number"
 				placeholder="Phone number"
-				class="lg:ml-[55vh] mt-2 border w-[101vh] border-black text-gray-900 text-sm p-4"
+				class="lg:ml-[55vh] mt-2 border lg:w-[101vh] w-full border-black text-gray-900 text-sm p-4"
 				required
 			/>
 		</div>
@@ -124,7 +124,7 @@
 				id="Message"
 				rows="11"
 				placeholder="Message"
-				class="lg:ml-[55vh] mt-2 border w-[101vh] border-black text-gray-900 text-sm p-4"
+				class="lg:ml-[55vh] mt-2 border lg:w-[101vh] w-full border-black text-gray-900 text-sm p-4"
 				required
 			/>
 		</div>

@@ -109,7 +109,7 @@
 	<img
 		src="https://cdn.shopify.com/s/files/1/0666/9309/files/Group_2146_1100x.png?v=1648048312"
 		alt="."
-		class="h-[55vh] ml-2"
+		class="lg:h-[55vh] h-[40vh] ml-2"
 	/>
 	
 	<div class="mt-4 lg:mt-24 font-sans">
@@ -150,13 +150,13 @@
 
 
 
-<div class="bg-[#faf8ee] w-full lg:w-[210vh]  mb-10">
+<div class="bg-[#faf8ee] w-full lg:w-[210vh] mb-10">
 	<div
-		class=" grid grid-flow-rows grid-cols-1 lg:grid-cols-2 gap-4 lg:ml-[26vh] p-5 mx-auto ml-5 max-w-6xl mt-5"
+		class=" grid grid-flow-rows grid-cols-1 lg:grid-cols-2 gap-4 lg:ml-[26vh] p-5 mx-auto max-w-6xl mt-5"
 	>
 		<div class="lg:mt-32">
 			<h1 class="text-4xl font-serif ">Inspire customers to buy</h1>
-			<p class="text-base mt-4">
+			<p class="text-base lg:mt-4">
 				Ensure your customers discover the products they are looking for with features like live
 				search, color swatches, cross selling and recommended products.
 			</p>
@@ -164,16 +164,16 @@
 		<img
 			src="https://cdn.shopify.com/s/files/1/0666/9309/files/Group_2161_1100x.png?v=1648127525"
 			alt="."
-			class="lg:h-[55vh] h-[48vh] mt-4"
+			class="lg:h-[55vh] h-[40vh] lg:mt-4"
 		/>
 		<img
 			src="https://cdn.shopify.com/s/files/1/0666/9309/files/Group_2158_6ee54c42-bc4f-4831-816b-a08d448ee00e_1100x.png?v=1648127222"
 			alt="."
-			class="lg:h-[55vh] h-[48vh] mt-20"
+			class="lg:h-[55vh] h-[40vh] lg:mt-20"
 		/>
-		<div class="mt-48">
+		<div class="lg:mt-48">
 			<h1 class="text-4xl font-serif ">Increase average order value</h1>
-			<p class="text-base mt-4">
+			<p class="text-base lg:mt-4">
 				Increase your average order value with promotional sections like an announcement bar,
 				recommended products, email subscription pop up and in cart messages.
 			</p>
@@ -226,7 +226,8 @@
 			<line x1="5" y1="12" x2="19" y2="12"></line>
 		 </svg>
 	</div>
-	<hr class="mt-3 border-black" /><div class="flex justify-between mt-4 cursor-pointer">
+	<hr class="mt-3 border-black" />
+	<div class="flex justify-between mt-4 cursor-pointer">
 		<div class="text-sm">CART & CHECKOUT</div>
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus h-6 w-4 " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -234,7 +235,8 @@
 			<line x1="5" y1="12" x2="19" y2="12"></line>
 		 </svg>
 	</div>
-	<hr class="mt-3 border-black" /><div class="flex justify-between mt-4 cursor-pointer">
+	<hr class="mt-3 border-black" />
+	<div class="flex justify-between mt-4 cursor-pointer">
 		<div class="text-sm">AGE VERIFIER</div>
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus h-6 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -242,7 +244,8 @@
 			<line x1="5" y1="12" x2="19" y2="12"></line>
 		 </svg>
 	</div>
-	<hr class="mt-3 border-black" /><div class="flex justify-between mt-4 cursor-pointer">
+	<hr class="mt-3 border-black" />
+	<div class="flex justify-between mt-4 cursor-pointer">
 		<div class="text-sm">ANIMATION</div>
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus h-6 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -250,7 +253,8 @@
 			<line x1="5" y1="12" x2="19" y2="12"></line>
 		 </svg>
 	</div>
-	<hr class="mt-3 border-black" /><div class="flex justify-between mt-4 cursor-pointer">
+	<hr class="mt-3 border-black" />
+	<div class="flex justify-between mt-4 cursor-pointer">
 		<div class="text-sm">PRODUCT DISCOVERY</div>
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus h-6 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

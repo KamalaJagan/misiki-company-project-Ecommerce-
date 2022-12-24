@@ -282,11 +282,12 @@
 	<hr class="mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class=" text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2 p-5">
+	<div class="text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2 p-4">
 		{#each anklets as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] lg:w-full mb-2"/>
-				<div class=" text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] h-[40vh] w-[32vh] lg:w-full">
+				<img src={ank.image} alt="..." class="object-cover transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -295,20 +296,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each hoops as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class=" text-center mb-12">
+			<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -317,20 +319,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each earrings as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class=" text-center mb-12">
+			<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -339,20 +342,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each guardins as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2"/>
-				<div class=" text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -361,20 +365,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each balls as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2"/>
-				<div class=" text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -383,20 +388,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each hops as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2"/>
-				<div class=" text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -405,20 +411,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class="font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each necklaces as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2"/>
-				<div class="text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -427,20 +434,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each news as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class=" text-center mb-12">
+			<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -449,20 +457,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each sales as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class=" text-center mb-12">
+			<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -471,20 +480,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each shops as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class=" text-center mb-12">
+			<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>
@@ -493,20 +503,21 @@
 		{/each}
 	</div>
 </div>
-<div class="mx-auto max-w-6xl">
-	<hr class="w-[155vh] mb-3"/>
+<div class="mx-auto max-w-6xl lg:w-[155vh] w-full">
+	<hr class=" mb-3"/>
 	<div class="flex gap-4 mb-3">
 		ANKLETS
 		<p class="text-xs py-1">2 items</p>
 	</div>
-	<hr class="w-[155vh] mb-3"/>
+	<hr class=" mb-3"/>
 </div>
 <div class=" font-sans-serif">
-	<div class="p-5 text-center gap-4 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
+	<div class="p-4 text-center gap-8 mx-auto max-w-6xl bg-cover grid lg:grid-cols-3 grid-cols-2">
 		{#each wishings as ank, bx}
-			<div>
-				<img src={ank.image} alt="..." class="object-cover h-[72vh] w-full mb-2" />
-				<div class="text-center mb-12">
+		<div class="hover:text-gray-500">
+			<div class="overflow-hidden lg:h-[72vh] w-full">
+				<img src={ank.image} alt="..." class="object-cover h-full w-full transition duration-500 hover:scale-110 cursor-pointer"/> </div>
+				<div class=" text-center mb-12 mt-4">
 					<div class="">{ank.name}</div>
 					<div class="line-through text-xs">{ank.amount}</div>
 					<div>{ank.price}</div>

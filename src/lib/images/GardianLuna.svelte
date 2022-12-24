@@ -90,13 +90,13 @@
 </script>
 
 <!-- --------------------------------------------Image details and choices start ----------------------------------------------------- -->
-<div class="flex gap-2 ml-3 text-xs mt-5 lg:ml-[30vh] lg:mt-10 m-2">
+<div class="flex gap-2 ml-4 text-xs mt-5 lg:ml-[30vh] lg:mt-10 m-2">
 	<button class="hover:underline">Home</button>
 	<h3>Guardian Luna Blue Topaz Necklace</h3>
 </div>
 <div class="grid grid-flow-row grid-cols-1 lg:grid-cols-2 mt-6 font-san-serif text-sm">
 	<div>
-		<img src={afiv9} class=" p-3 lg:ml-[28vh] h-[90vh] lg:h-[130vh] w-[89vh] object-cover" alt="" />
+		<img src={afiv9} class=" p-4 lg:ml-[28vh] h-[70vh] lg:h-[130vh] lg:w-[89vh] w-full object-cover" alt="" />
 		<div class="hidden md:flex flex-row gap-5 mt-6 lg:ml-[28vh] justify-center items-center">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -114,7 +114,7 @@
 			  
 		</div>
 	</div>
-	<div class="m-5 lg:ml-[14vh] p-3">
+	<div class=" lg:ml-[14vh] p-4">
 		<h1 class="text-2xl font-serif">Guardian Luna Blue Topaz Necklace</h1>
 		<div class="flex flex-row mt-4 text-gray-800 ">
 			<svg
@@ -185,17 +185,17 @@
 		</div>
 		<div class="mt-3">Quantity</div>
 		<button
-			class="border-2 border-gray-400 h-14 mt-4 w-[27vh] grid grid-cols-3 justify-center py-3 "
+			class="border-2 border-gray-400 h-14 mt-4 w-[27vh]  grid grid-cols-3 justify-center py-3 "
 		>
 			<div>-</div>
 			<div>1</div>
 			<div>+</div>
 		</button>
-		<button class="border-2 border-gray-400 h-12 w-[61vh] mt-8 tracking-widest hover:border-black"
+		<button class="border-2 border-gray-400 h-12 lg:w-[61vh] w-full mt-8 tracking-widest hover:border-black"
 			>ADD TO CART</button
 		>
 		<button
-			class=" bg-gray-500 border-gray-400 h-12 w-[61vh] tracking-widest mt-8 hover:bg-yellow-500"
+			class=" bg-gray-500 border-gray-400 h-12 lg:w-[61vh] w-full tracking-widest mt-8 hover:bg-yellow-500"
 			>BAY IT NOW</button
 		>
 		<div class="font-bold text-base font-sans-serif mt-3">Guardian Luna Blue Topaz Necklace</div>
@@ -209,17 +209,17 @@
 			<div>Material type</div>
 			<div class="ml-6">18k Gold Vermeil</div>
 		</div>
-		<hr class=" w-[61vh] mt-4" />
+		<hr class=" lg:w-[61vh] mt-4" />
 		<div class="flex ml-4 mt-2">
 			<div>Stone</div>
 			<div class="ml-[10vh]">Blue Topaz inlaid with 22k gold flakes</div>
 		</div>
-		<hr class=" w-[61vh] mt-4" />
+		<hr class=" lg:w-[61vh] mt-4" />
 		<div class="flex ml-4 mt-2">
 			<div>Chain length</div>
 			<div class="ml-7">18-20 inch</div>
 		</div>
-		<hr class=" w-[61vh] mt-4" />
+		<hr class=" lg:w-[61vh] mt-4" />
 		<div class="flex ml-4 mt-2">
 			<div class="">
 				Pendant
@@ -227,7 +227,7 @@
 			</div>
 			<div class="ml-5">2cm</div>
 		</div>
-		<hr class=" w-[61vh] mt-4" />
+		<hr class=" lg:w-[61vh] mt-4" />
 		<div class="flex ml-4 mt-2">
 			<div>Packaging</div>
 			<div class="ml-12 lg:mr-52">
@@ -235,7 +235,7 @@
 				pieces safe. All of our packaging is plastic free
 			</div>
 		</div>
-		<hr class=" w-[61vh] mt-4" />
+		<hr class=" lg:w-[61vh] mt-4" />
 		<div class="flex gap-1 mt-3">
 			<svg
 				aria-hidden="true"
@@ -258,9 +258,9 @@
 		<div class="mt-3 underline hover:no-underline hover:text-gray-400 text-xs ml-4 cursor-pointer">
 			Check availability at other stores
 		</div>
-		<div class="mt-4 h-[54vh] w-[61vh] bg-gray-50">
+		<div class="mt-4 h-[54vh] lg:w-[61vh] w-full bg-gray-50">
 			<div class="text-lg ml-4 py-4">Don't forget these...</div>
-			<div class="grid grid-flow-row grid-cols-4">
+			<div class="grid grid-flow-row lg:grid-cols-4 grid-cols-2">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/2F7932E9-A628-4538-945E-C4653F2F79BB_550x.jpg?v=1580827001"
 					alt="/"
@@ -284,9 +284,9 @@
 						</svg></button
 					></div>
 				</div>
-				<button class="border-2 h-16 w-36 hover:bg-yellow-200 hover:text-white text-lg ml-16">MAKE A SELECTION</button>
+				<button class="border-2 h-16 w-44 lg:w-36 hover:bg-yellow-200 hover:text-white text-lg ml-32 lg:ml-16">MAKE A SELECTION</button>
 			</div>
-			<div class="grid grid-flow-row grid-cols-4 mt-8">
+			<div class="grid grid-flow-row lg:grid-cols-4 grid-cols-2 mt-8">
 				<img
 					src="https://cdn.shopify.com/s/files/1/0666/9309/products/Clover_Swift_Leah-95websize_550x.jpg?v=1580810690"
 					alt="/"
@@ -296,7 +296,7 @@
 					<div>Guardian Blue Topaz Shield Satellite Chain Necklace</div>
 					<div>$34.95</div>
 				</div>
-				<button class="border-2 h-16 w-36 bg-gray-800 hover:bg-yellow-200 text-white justify-center text-lg ml-16">ADD TO<p>CART</p></button>
+				<button class="border-2 h-16 w-44 lg:w-36 bg-gray-800 hover:bg-yellow-200 text-white justify-center text-lg ml-32 lg:ml-16">ADD TO CART</button>
 			</div>
 		</div>
 	</div>
@@ -304,9 +304,9 @@
 
 <!-- -------------------------------------------Image details and choices ends----------------------------------------------------------->
 
-<!-------------------------------------------------------- custmor reviews will be started ------------------------------------------- -->
+<!------------------------------------------------------- custmor reviews will be started ------------------------------------------- -->
 
-<div class="border-2 border-gray-300 lg:ml-[28vh] lg:mr-[28vh] mb-4 mt-16 m-2 font-sans-serif">
+<div class="border-2 border-gray-300 lg:ml-[28vh] lg:mr-[28vh] mb-4 mt-16 m-4 font-sans-serif">
 	<div class="p-7">
 		<h1 class="text-3xl font-serif">Customer Reviews</h1>
 		<div class="flex flex-row mt-3 text-gray-800 ">
@@ -786,7 +786,7 @@
 
 <!-- -------------------------------------------------As seen page will be started--------------------------------------------------- -->
 
-<div class=" bg-[#ded1bd] lg:h-[300px] lg:w-[210vh] h-auto bg:w-full font-sans-serif">
+<div class=" bg-[#ded1bd] lg:h-[300px] lg:w-[210vh] h-auto w-full font-sans-serif">
 	<div class="text-center text-4xl mt-10">
 		<a href="/" class="font-serif">As seen in</a>
 	</div>
@@ -807,7 +807,7 @@
 
 <!-- ---------------------------------------------------images will be started ------------------------------------------------------- -->
 
-<div class="mt-5 h-auto bg:w-full font-sans-serif ">
+<div class="mt-5 h-auto w-full p-4 font-sans-serif ">
 	<h1 class="text-center mt-4 text-4xl text-gray-800 font-serif font-light">You may also like</h1>
 	<div
 		class="grid h-auto mt-5 grid-flow-row grid-cols-2 md:grid-cols-4 gap-8 mx-auto max-w-md lg:max-w-6xl bg-cover"
