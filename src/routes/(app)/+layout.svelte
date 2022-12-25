@@ -1,9 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import PageTransitions from '$lib/PageTransitions.svelte';
-
 	export let data;
-	// console.log('zzzzzzzzzzzzzzzzzz', data);
 
 	let openSidebar = false;
 	let showCartSidebar = false;

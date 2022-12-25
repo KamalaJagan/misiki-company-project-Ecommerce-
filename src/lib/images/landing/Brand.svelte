@@ -7,7 +7,9 @@
 	import brandA6 from '$lib/assets/bran/a6.webp';
 	import brandA7 from '$lib/assets/bran/a7.jpg';
 	import brandA8 from '$lib/assets/bran/a8.webp';
-
+	import { getAPI } from '$lib/util/api';
+	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
 	let bands = [
 		{
 			image: brandA1,
@@ -58,6 +60,10 @@
 			amount: '$49.95'
 		}
 	];
+	let home = {};
+	onMount(async () => {
+		home = await getAPI(`home?store=${$page.data.store?.id}`, $page.data.origin);
+	});
 </script>
 
 <div class="font-sans-serif">

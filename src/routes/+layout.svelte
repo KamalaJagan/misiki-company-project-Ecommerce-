@@ -1,23 +1,18 @@
 <script>
-	import { page } from "$app/stores";
-import Footer from "$lib/images/landing/Footer.svelte";
-	import Nav from "$lib/images/landing/Nav.svelte";
-	import "../app.css";
-
+	import { page } from '$app/stores';
+	import Footer from '$lib/images/landing/Footer.svelte';
+	import Nav from '$lib/images/landing/Nav.svelte';
+	import '../app.css';
 </script>
 
 <div class="app">
 	<Nav />
 
-
-
 	<main>
 		<slot />
 	</main>
-	
 
 	<Footer />
-	
 </div>
 
 <style>
