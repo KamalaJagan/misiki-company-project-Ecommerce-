@@ -1,4 +1,4 @@
-//import Logo from '$lib/logo.svg';
+import Logo from '$lib/logo.svg';
 
 // All bellow data will be replaced by Footer.svelte after the server/store call and saved to cookie
 export const id = '62b00e15c4899dc7b1f78cb1'
@@ -14,7 +14,7 @@ export const GOOGLE_CLIENT_ID =
 export const instagramPage = 'https://www.instagram.com/misiki/'
 export const keywords = 'ecommerce, product'
 export const linkedinPage = 'https://www.linkedin.com/company/misiki/'
-export const logo = Logo
+//export const logo = Logo
 export const phone = '+91-8249028220'
 export const pinterestPage = 'https://www.pinterest.com/company/misiki/'
 export const stripePublishableKey =
