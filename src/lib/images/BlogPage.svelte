@@ -1,11 +1,13 @@
 <script>
-	import { each } from 'svelte/internal';
 	import blogC1 from '$lib/assets/blog/c1.webp';
 	import blogC3 from '$lib/assets/blog/c3.webp';
 	import brandA1 from '$lib/assets/bran/a1.jpg';
 	import brandA2 from '$lib/assets/bran/a2.jpg';
 	import brandA3 from '$lib/assets/bran/a3.webp';
 	import brandA4 from '$lib/assets/bran/a4.webp';
+	import { onMount } from 'svelte';
+	import { getAPI } from '$lib/util/api';
+	import { page } from '$app/stores';
 	let outs = [
 		{
 			image: blogC1,
@@ -48,6 +50,11 @@
 			amount: '$43.95'
 		}
 	];
+	console.log('zzzzzzzzzzzzzzzzzzzzzzzzzzz');
+	// onMount(async () => {
+	// 	news = await getAPI(`brands?store=${$page.data.store?.id}`, $page.data.origin);
+	// 	console.log('zzzzzzzzzzzzzzzzzzzzzzzzzzz', news);
+	// });
 </script>
 
 <div class="p-4 font-sans-serif">
@@ -74,9 +81,7 @@
 		</div>
 	</div>
 </div>
-<div
-	class="lg:mt-10 lg:mb-52 grid p-4 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl"
->
+<div class="lg:mt-10 lg:mb-52 grid p-4 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl">
 	{#each outs as blog, bx}
 		<div class="lg:h-80 w-[40vh] lg:w-full ml-3">
 			<img src={blog.image} class="object-cover" alt="....." />
@@ -98,20 +103,20 @@
 		class="grid h-auto grid-flow-row p-4 md:grid-cols-4 gap-8 grid-cols-2 mx-auto max-w-md lg:max-w-6xl"
 	>
 		{#each news as bran, bx}
-		<div class="hover:text-gray-500 mt-4" >
-			<div class="overflow-hidden lg:h-96 h-auto w-auto">
-				<img
-					src={bran.image}
-					class="object-cover h-full w-full  transition duration-500 hover:scale-110 cursor-pointer"
-					alt="....."
-				/>
+			<div class="hover:text-gray-500 mt-4">
+				<div class="overflow-hidden lg:h-96 h-auto w-auto">
+					<img
+						src={bran.image}
+						class="object-cover h-full w-full  transition duration-500 hover:scale-110 cursor-pointer"
+						alt="....."
+					/>
+				</div>
+				<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
+					<div>{bran.name}</div>
+					<div class="line-through text-xs">{bran.amount1}</div>
+					<div>{bran.amount}</div>
+				</div>
 			</div>
-			<div class="text-center mt-4 mb-6 hover:text-gray-500 cursor-pointer">
-				<div>{bran.name}</div>
-				<div class="line-through text-xs">{bran.amount1}</div>
-				<div>{bran.amount}</div>
-			</div>
-		</div>
 		{/each}
 	</div>
 </div>
