@@ -173,12 +173,12 @@
 	>
 </div>
 
-<div class="bg-[#faf8ee] lg:w-[210vh] mt-10">
+<div class="bg-[#faf8ee] lg:w-[210vh] mt-10 mb-10">
 	<div class=" lg:max-w-6xl gap-6 text-center p-4 w-full flex-row text-gray-500 grid grid-cols-1 lg:grid-cols-2 container mx-auto font-san-serif">
-		<div class="w-full ">
+		<div class="w-full py-4">
 			<img src="https://cdn.shopify.com/s/files/1/0666/9309/files/image_4.png?v=1629716569" class="lg:h-full" alt="....." />
 		</div>
-		<div class="flex-row grid grid-cols grid-cols-2 gap-4">
+		<div class="flex-row grid grid-cols grid-cols-2 gap-4 py-4">
 			<div>
 				<div class="overflow-hidden lg:h-96 w-auto lg:w-60">
 					<img

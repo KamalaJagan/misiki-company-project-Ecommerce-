@@ -27,11 +27,11 @@
 	];
 </script>
 <div class="bg-[#faf8ee] lg:h-[700px] h-auto bg:w-full font-sans-serif mt-10">
-	<h1 class="text-center mt-10 text-4xl text-gray-800 font-serif font-light">From the blog</h1>
-	<div class="grid h-auto p-5 grid-flow-row grid-cols-1 lg:grid-cols-3 gap-8 mx-auto max-w-6xl w-full bg-cover">
+	<h1 class="text-center py-8 text-4xl text-gray-800 font-serif font-light">From the blog</h1>
+	<div class="grid h-auto p-4 grid-flow-row grid-cols-1 lg:grid-cols-3 gap-8 mx-auto max-w-6xl w-full bg-cover">
 		{#each blogs as blog, bx}
 				<div>
-					<img src="{blog.image}" class="lg:h-64 h-auto  object-cover w-auto" alt="....." />
+					<img src="{blog.image}" class="lg:h-64 h-auto object-cover w-auto" alt="....." />
 					<div class="py-4">
 						<div class="uppercase hover:underline text-gray-500 text-sm cursor-pointer">
 							<p>{blog.name}</p>

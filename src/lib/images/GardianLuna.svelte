@@ -284,7 +284,8 @@
 						</svg></button
 					></div>
 				</div>
-				<button class="border-2 h-16 w-44 lg:w-36 hover:bg-yellow-200 hover:text-white text-lg ml-32 lg:ml-16">MAKE A SELECTION</button>
+				<button class="border-2 h-16 w-44w8
+				 lg:w-36 hover:bg-yellow-200 hover:text-white text-lg ml-32 lg:ml-16">MAKE A SELECTION</button>
 			</div>
 			<div class="grid grid-flow-row lg:grid-cols-4 grid-cols-2 mt-8">
 				<img

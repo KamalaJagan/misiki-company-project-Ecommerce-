@@ -61,9 +61,7 @@
 	<h1 class="text-4xl">FAQs</h1>
 </div>
 
-<div
-	class="mt-6 text-base max-w-6xl text-gray-700  justify-center lg:ml-[54vh] lg:mr-[56vh] p-4 font-sans-serif"
->
+<div class="mt-6 text-base max-w-6xl text-gray-700  justify-center lg:ml-[54vh] lg:mr-[56vh] p-4 font-sans-serif">
 	{#each faqs as { text, name }}
 		<div>
 			<div class="font-bold">{name}</div>

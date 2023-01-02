@@ -528,14 +528,14 @@
 </div>
 
 <div class="bg-[#ded1bd] h-[50vh] w-[210vh] font-sans-serif mt-14">
-	<div class="text-center text-4xl mt-10">
+	<div class="text-center text-4xl py-8">
 		<a href="/" class="font-serif">As seen in</a>
 	</div>
 	<div class="flex bg-[#ded1bd] justify-center flex-wrap gap-4 mt-8">
 		{#each seens as asseen, bx}
 			<img
 				src={asseen.image}
-				class="lg:h-32 w-auto h-28 object-contain object-top flex-shrink-0"
+				class="lg:h-32 w-auto  bg-[#ded1bd] h-28 object-contain object-top flex-shrink-0"
 				alt="..."
 			/>
 		{/each}
