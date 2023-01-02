@@ -1,18 +1,18 @@
 import { error, type Handle } from '@sveltejs/kit';
-//	import {SECRET_SENTRY_DSN} from 'src/hooks.server.ts';
+	import {SECRET_SENTRY_DSN} from 'src/hooks.server.ts';
 //import { SECRET_SENTRY_DSN } from '$env/static/private';
 const SENTRY_DSN = SECRET_SENTRY_DSN;
 import {
 	id,
 	address,
 	searchbarText,
-	adminUrl,
-	dimentionUnit,
-	loginUrl,
-	weightUnit,
-	currencyCode,
-	currencySymbol,
-	closedMessage,
+	// adminUrl,
+	// dimentionUnit,
+	// loginUrl,
+	// weightUnit,
+	// currencyCode,
+	// currencySymbol,
+	// closedMessage,
 	description,
 	domain,
 	DOMAIN,
