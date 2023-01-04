@@ -535,7 +535,7 @@
 		{#each seens as asseen, bx}
 			<img
 				src={asseen.image}
-				class="lg:h-32 w-auto  bg-[#ded1bd] h-28 object-contain object-top flex-shrink-0"
+				class="lg:h-32 w-auto bg-[#ded1bd] h-28 object-contain object-top flex-shrink-0"
 				alt="..."
 			/>
 		{/each}
