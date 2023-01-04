@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import { error, type Handle } from '@sveltejs/kit';
 	//import {SECRET_SENTRY_DSN} from '/src/hooks.server.ts';
 import { SECRET_SENTRY_DSN } from '$env/static/private';
 const SENTRY_DSN = SECRET_SENTRY_DSN;
+=======
+import { error, type Handle } from '@sveltejs/kit'
+import { SECRET_SENTRY_DSN } from '$env/static/private'
+const SENTRY_DSN = SECRET_SENTRY_DSN
+>>>>>>> 7cbc85939c0aaf1a03c5149b46e937fbdf96a0b2
 import {
 	id,
 	address,
@@ -34,26 +40,26 @@ import {
 	websiteName,
 	WWW_URL,
 	youtubeChannel
-} from '$lib/config';
-import { getBySid } from '$lib/utils';
+} from '$lib/config'
+import { getBySid } from '$lib/utils'
 // import Cookie from 'cookie-universal'
-import * as Sentry from '@sentry/svelte';
-import { BrowserTracing } from '@sentry/tracing';
+import * as Sentry from '@sentry/svelte'
+import { BrowserTracing } from '@sentry/tracing'
 
 if (SENTRY_DSN) {
 	Sentry.init({
 		dsn: SENTRY_DSN,
 		integrations: [new BrowserTracing()],
 		tracesSampleRate: 1.0
-	});
+	})
 }
 
 /** @type {import('@sveltejs/kit').HandleFetch} */
 export const handleFetch = async ({ event, request, fetch }) => {
-	request.headers.set('cookie', event.request.headers.get('cookie'));
+	request.headers.set('cookie', event.request.headers.get('cookie'))
 
-	return fetch(request);
-};
+	return fetch(request)
+}
 
 // /** @type {import('@sveltejs/kit').HandleServerError} */
 // export const handleError = async ({ error, event }) => {
@@ -66,10 +72,10 @@ export const handleFetch = async ({ event, request, fetch }) => {
 
 export const handle: Handle = async ({ event, resolve }) => {
 	try {
-		const WWW_URL1 = new URL(event.request.url).origin;
-		event.locals.origin = WWW_URL || WWW_URL1; // https not coming in coolify hence hard coded in .env
+		const WWW_URL1 = new URL(event.request.url).origin
+		event.locals.origin = WWW_URL || WWW_URL1 // https not coming in coolify hence hard coded in .env
 		if (event.locals.origin.includes('.')) {
-			event.locals.origin = event.locals.origin.replace('http://', 'https://');
+			event.locals.origin = event.locals.origin.replace('http://', 'https://')
 		}
 		// console.log(
 		// 	'DOMAIN from .env, request url, final origin',
@@ -77,10 +83,10 @@ export const handle: Handle = async ({ event, resolve }) => {
 		// 	WWW_URL1,
 		// 	event.locals.origin
 		// )
-		const cookieStore = event.cookies.get('store');
-		const zip = event.cookies.get('zip');
+		const cookieStore = event.cookies.get('store')
+		const zip = event.cookies.get('zip')
 		if (zip) {
-			event.locals.zip = JSON.parse(zip);
+			event.locals.zip = JSON.parse(zip)
 		}
 		let store = {
 			id,
@@ -115,20 +121,20 @@ export const handle: Handle = async ({ event, resolve }) => {
 			currencyCode,
 			currencySymbol,
 			youtubeChannel
-		};
+		}
 		if (!cookieStore || cookieStore === 'undefined') {
-			const url = new URL(event.request.url);
-			const storeRes = await getBySid(`init?domain=${DOMAIN || url.host}`);
+			const url = new URL(event.request.url)
+			const storeRes = await getBySid(`init?domain=${DOMAIN || url.host}`)
 
 			// console.log('storeRes', storeRes)
 
-			const { storeOne, settings } = storeRes;
+			const { storeOne, settings } = storeRes
 
 			store = {
 				id: storeOne._id,
 				address: storeOne.address,
 				searchbarText: storeOne.searchbarText,
-				adminUrl: settings.adminUrl,
+				adminUrl: storeOne.adminUrl || settings.adminUrl, // storeOne.adminUrl used for arialmall
 				closed: storeOne.closed,
 				closedMessage: storeOne.closedMessage,
 				description: storeOne.description,
@@ -157,15 +163,15 @@ export const handle: Handle = async ({ event, resolve }) => {
 				youtubeChannel: storeOne.youtubeChannel,
 				currencySymbol: storeOne.storeCurrency?.symbol || '$',
 				currencyCode: storeOne.storeCurrency?.isoCode || 'USD'
-			};
-			event.cookies.set('store', JSON.stringify(store), { path: '/' });
+			}
+			event.cookies.set('store', JSON.stringify(store), { path: '/' })
 		} else {
-			store = JSON.parse(cookieStore);
+			store = JSON.parse(cookieStore)
 		}
 
-		event.locals.store = store;
+		event.locals.store = store
 
-		let me: any = event.cookies.get('me');
+		let me: any = event.cookies.get('me')
 		// if (!me) {
 		// 	try {
 		// 		if (me) {
@@ -185,7 +191,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 		// 	}
 		// } else {
 		if (me) {
-			me = JSON.parse(me);
+			me = JSON.parse(me)
 			event.locals.me = {
 				active: me.active,
 				avatar: me.avatar,
@@ -195,16 +201,16 @@ export const handle: Handle = async ({ event, resolve }) => {
 				phone: me.phone,
 				role: me.role,
 				verified: me.verified
-			};
+			}
 		}
-		const cartId: string = event.cookies.get('cartId');
-		const cartQty: string = event.cookies.get('cartQty');
+		const cartId: string = event.cookies.get('cartId')
+		const cartQty: string = event.cookies.get('cartQty')
 		// const cart: any = event.cookies.get('cart') || '{}'
-		event.locals.cartId = cartId;
-		event.locals.cartQty = +cartQty;
+		event.locals.cartId = cartId
+		event.locals.cartQty = +cartQty
 		// event.locals.cart = JSON.parse(cart)
-		const sid = event.cookies.get('sid');
-		const cartRes = await getBySid('carts/my', sid);
+		const sid = event.cookies.get('sid')
+		const cartRes = await getBySid('carts/my', sid)
 		const cart = {
 			cartId: cartRes.cart_id,
 			items: cartRes.items,
@@ -218,18 +224,18 @@ export const handle: Handle = async ({ event, resolve }) => {
 			shipping: cartRes.shipping,
 			unavailableItems: cartRes.unavailableItems,
 			formattedAmount: cartRes.formattedAmount
-		};
-		event.locals.cart = cart;
+		}
+		event.locals.cart = cart
 		// load page as normal
-		event.request.headers.delete('connection');
-		return await resolve(event);
+		event.request.headers.delete('connection')
+		return await resolve(event)
 	} catch (e) {
 		const err = `Store Not Found @Hook 
 			<br/>ID: ${event.locals.store?.id}
 			<br/>ORIGIN: ${event.locals?.origin}
 			<br/>DOMAIN(env): ${DOMAIN}
-			<br/>HTTP_ENDPOINT(env): ${HTTP_ENDPOINT}`;
+			<br/>HTTP_ENDPOINT(env): ${HTTP_ENDPOINT}`
 		// console.log('Err at Hooks...', e)
-		throw error(404, err);
+		throw error(404, err)
 	}
-};
+}
