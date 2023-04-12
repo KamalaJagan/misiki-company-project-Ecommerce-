@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-import { error, type Handle } from '@sveltejs/kit';
-	//import {SECRET_SENTRY_DSN} from '/src/hooks.server.ts';
-import { SECRET_SENTRY_DSN } from '$env/static/private';
-const SENTRY_DSN = SECRET_SENTRY_DSN;
-=======
 import { error, type Handle } from '@sveltejs/kit'
 import { SECRET_SENTRY_DSN } from '$env/static/private'
 const SENTRY_DSN = SECRET_SENTRY_DSN
->>>>>>> 7cbc85939c0aaf1a03c5149b46e937fbdf96a0b2
 import {
 	id,
 	address,
